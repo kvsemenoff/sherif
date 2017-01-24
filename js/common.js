@@ -34,6 +34,28 @@ $(document).ready(function(){
         $(this).toggleClass('az-select-focus');
     });
 
+    var owl2 = $("#df-owl");
+    owl2.owlCarousel({
+        loop:true,
+        nav:true, 
+        autoplay:false,
+        smartSpeed:1000,
+        margin:0,    
+        navText:['<span class="df-left"></span>','<span class="df-right"></span>'],
+        responsive:{
+            0:{
+              items:1
+          },       
+          1000:{
+              items:1
+          },
+          1248:{
+              items:1
+          }
+      }
+  });
+    
+
  });
 
 
