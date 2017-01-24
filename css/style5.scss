@@ -180,7 +180,7 @@
 	}
 }
 .df-link{	
-	max-width: 380px;
+	max-width: 380px;	
 	font-size: 22px;
 	line-height: 25px;
 	font-family: 'Exo2-Bold';
@@ -190,15 +190,17 @@
 	background-image: url("../img/df-link.png");
 	background-repeat: no-repeat;
 	background-position: center center;
-	z-index: 1;	
-	padding: 25px 35px;
+	background-color: white;
+	padding: 25px 30px;	
 	text-shadow: 1px 1px #70aa0a,
 	1px 1px #70aa0a,-1px -1px #70aa0a,-1px -1px #70aa0a,
 	-1px 1px #70aa0a,1px -1px #70aa0a,-1px 1px #70aa0a,
 	0px -1px #70aa0a,0px 0px 0px rgba(0,0,0,0.3),
 	0px 0px 0px rgba(0,0,0,0.3),0px 0px 0px rgba(0,0,0,0.3),
-	0px 0px 0px rgba(0,0,0,0.3); 
-	position: relative;		
+	0px 0px 0px rgba(0,0,0,0.3);
+	position: absolute; 
+	position: relative;	
+	z-index: 100;	
 }
 .df-link:before, .df-link:after{
   z-index: -1;
@@ -221,6 +223,7 @@
   left: auto;
   box-shadow: 20px -3px 40px 9px #777;
 }
+
 
 
 @media only screen and (min-width : 320px) {
