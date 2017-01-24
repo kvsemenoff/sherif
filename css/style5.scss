@@ -62,7 +62,7 @@
 	margin: 0 auto;
 	margin-right: 12px;
 }
-.df-must__txt_view{
+.df-must__txt_view, .df-txt_view{
 	vertical-align: top;
 	float: left;
 	font-size: 15px;
@@ -203,6 +203,69 @@
   left: auto;
   box-shadow: 20px -3px 40px 9px #777;
 }
+
+
+
+/* ============not end===========*/
+.df-not-end_view{
+
+}
+.df-not-end__leftbox_view{
+
+}
+.df-not-end__block_view{
+	display: block;
+}
+.df-not-end__img1_view{
+	width: 100px;
+	float: left;
+}
+.df-txt_view{
+	text-align: left;
+	max-width: 590px;
+	width: 100%;
+	float: left;
+	span{
+		font-size: 14px;
+		font-family: 'Exo2-Bold';
+		color:#000;
+		line-height: 22px;
+		letter-spacing: 0.2px;
+	}
+}
+
+
+.df-not-end__rightbox_view{
+
+}
+.df-not-end__img_view{
+	background-color: white;
+	background-image: url("../img/df-shadow.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 30px;
+	max-width: 455px;
+	background-size: cover;
+	width: 100%;
+	img{
+		display: inline-block;
+    	margin: 15px 0;
+	}
+}
+.df-not-end__h3_view{
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
