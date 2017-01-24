@@ -1,4 +1,5 @@
 ﻿	<?php require_once('includes/header.php'); ?>
+	<?php require_once('includes/header_top.php'); ?>
 	<?php require_once('includes/stop_give.php'); ?>
 	<?php require_once('includes/must.php'); ?>
 	<?php require_once('includes/avoid.php'); ?>
