@@ -1,4 +1,8 @@
-
+.my-container{
+	max-width:1188px;
+	margin: 0 auto;
+	display:none;
+}
 /* Шапка mobile
 =====================================*/
 
@@ -7,7 +11,7 @@
 	width: 100%;
 	background-size:cover; 
 	z-index:1;
-	// height: 403px;
+	height: 403px;
 }
 .dd-mobile-tel{
 	height: 50px;
@@ -79,35 +83,332 @@
 }
 // Фиксируем меню при скроле
 .header-no-fixed{
-    display:none;
-    position:none;
+	display:none;
+	position:none;
 }
 // Тут задаем изменение фона шапки при скроле
 .header-fixed{
-    position:fixed;
-    top:0;
-    z-index:9999;
-    width:100%;
+	position:fixed;
+	top:0;
+	z-index:9999;
+	width:100%;
 }
 
 
+.header-no-fixed2{
+	display:none;
+	position:none;
+}
 
+.header-fixed2{
+	display:block;
+	position:fixed;
+	top:0;
+	z-index:9999;
+	width:100%;
+}
+// Контент для мобильной шапки
+
+// Скрываем телефон
+.dd-mobile-tel2{
+	display:none;
+}
+.dd-span-phone{
+	font-family: 'Exo2-Regular';
+	font-size: 17px;
+	color:#000000;
+	display:inline-block;
+	background: url(../img/tel3.png) no-repeat left;
+	height: 25px;
+	padding-left: 35px;
+	padding-top: 1px;
+	span{
+		font-family: 'Exo2-Bold';
+	}
+}
+//--------------------------------
+
+// Время работы
+.dd-mobile-date{
+	padding-top: 11px;
+	// padding-right: 132px;
+	span{
+		color: black;
+	}
+}
+.dd-1{
+	font-family: 'Exo2-Regular';
+	font-size: 16px;
+	text-transform:uppercase;
+}
+.dd-2{
+	font-family: 'Exo2-Light';
+}
+.dd-3{
+	font-family: 'Exo2-Bold';
+	color:#4D9E00 !important;
+}
+.dd-3-2{
+	color:#782702 !important;
+}
+
+// Заказать звонок
+.dd-mobile-zakazat-wrap{
+	background: #FF6D00;
+	margin-top: 20px;
+	a{
+		display: inline-block;
+		padding: 11px 0px;
+		text-transform: uppercase;
+		color:#fff;
+		font-family: 'Exo2-Bold';
+	}
+}
+
+// Название магазина
+.dd-mobile-title-wrap{
+	// margin-top: 38px;
+	// padding-bottom: 29px;
+	text-align:center;
+}
+.dd-mobile-title, .dd-mobile-title2{
+	font-family: 'Exo2-Regular';
+	text-transform:uppercase;
+	font-size:13px;
+	// font-size:16px;
+	color:black;
+}
+.dd-mobile-title2{
+	color: #682b0b;
+	font-family: 'Exo2-Bold';
+	span{
+		font-family: 'Exo2-Regular';
+		color:black;
+	}
+}
+
+// Слоган
+.dd-mobile-slogan{
+	text-align:center;
+}
+.dd-mobile-big-slogan{
+	font-family: 'Exo2-Bold';
+	text-transform:uppercase;
+	color: #bd040d;
+	font-size:25px;
+	display:inline-block;
+	// padding-bottom: 16px;
+	// font-size: 32px;
+}
+.dd-mobile-big-slogan2{
+	padding-bottom: 27px;
+	display:inline-block;
+	color: black;
+	font-size: 17px;
+	text-transform:uppercase;
+	font-family: 'Exo2-Regular';
+}
+
+.fix-navbar-top{
+	display:block;
+ position: fixed;
+ z-index: 1000;
+ width: 100%;
+ top: 0;
+}
 
 
 @media only screen and (min-width : 320px) {
+	.dd-mobile-title, .dd-mobile-title2{
+		font-size: 16px;
+	}
+	.dd-mobile-zakazat-wrap{
+		text-align: center;
+		a{
+			background: url(../img/zakaz.png) no-repeat right bottom;
+			padding-right: 55px;
+			margin-left: 22px;
+		}
+	}
+	.dd-mobile-title-wrap{
+		margin-top: 38px;
+		padding-bottom: 29px;
+		text-align:center;
+	}
+	.dd-mobile-slogan{
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+	.dd-mobile-big-slogan{
+		font-size: 32px;
+		padding-bottom: 16px;
+	}
+	.section-header-mobile-view{
+		// background: url(../img/bigger2.jpg) no-repeat top center;
+		height: 562px;
+	}
 }
 
 @media only screen and (min-width : 480px) {
+	.dd-mobile-zakazat-wrap{
+		padding-right: 122px;
+	}
+	.dd-mobile-date{
+		text-align: center;
+	}
+
+	.dd-mobile-date{
+		padding-right: 125px;
+	}
+	.section-header-mobile-view{
+		background: url(../img/big.jpg) no-repeat top center;
+		background-size: cover;
+		height: unset;
+	}
+
 }
 
 @media only screen and (min-width : 768px) {
 }
 
 @media only screen and (min-width : 992px) {
+	
 }
 
 @media only screen and (min-width : 1248px) {
+	.section-header-mobile-view{
+		height: 291px;
+	}
+	.dd-mobile-logo, .dd-mobile-tel, .dd-mobile-zakazat-wrap, .dd-mobile-date, .dd-mobile-title-wrap, .dd-mobile-slogan{
+		display: none;
+	}
+	.my-container{
+		display: block;
+		position:relative;
+	}
+	.dd-big-logo, .dd-big-name{
+		float: left;
+	}
+	.dd-big-logo{
+		margin-left: -150px;
+		// outline: 2px solid red;
+		display: inline-block;
+		position:absolute;
+		left:0;
+		// z-index: 999;
+	}
+	.dd-big-name{
+		padding-top: 17px;
+		display: inline-block;
+		// outline: 2px solid black;
+		padding-left: 226px;
+		padding-bottom: 15px;
+	}
+	.dd-mobile-title{
+		font-size: 12px !important;
+		span{
+			color:#713712;
+		}
+	}
+	.dd-right-block{
+		padding-top: 10px;
+		text-align: right;
+		float: right;
+		.dd-pb{
+			padding-bottom: 10px !important;
+		}
+	}
+	.dd-1, .dd-2, .dd-3, .dd-3-2{
+		font-size: 12px;
+	}
+	.dd-scroll-menu{
+		background: #3B2F14;
+		display: none;
+		ul{
+			li{
+				display: inline-block;
+				a{
+					display: inline-block;
+					text-transform: uppercase;
+					padding: 19px 16px;
+					color:#fff;
+					font-family: 'Exo2-SemiBold';
+					font-size: 13px;
+				}
+			}
+		}
+	}
+	.dd-big-menu{
+		background: #765629;
+		float: left;
+		margin-left: 200px;
+		z-index: -1;
+		// outline: 1px solid yellow;
+		// position:relative;
+		ul{
+			li{
+				display: inline-block;
+				a{
+					display: inline-block;
+					text-transform: uppercase;
+					padding: 19px 16px;
+					color:#fff;
+					font-family: 'Exo2-SemiBold';
+					font-size: 13px;
+				}
+				.pleft{
+					padding-left: 40px;
+				}
+				.dd-after{
+					position:relative;
+					padding-right: 33px;
+				}
+				.dd-after:before{
+					position:absolute;
+					content: "";
+					background: url(../img/tr2.png) no-repeat;
+					width: 25px;
+					height: 54px;
+					right:-1px;
+					top:0px;
+				}
+			}
+		}
+		.dd-zakazat-big{
+			position:absolute;
+			right: 0;
+			top:72px;
+		}
+	}
+	.dd-big-slogan{
+		text-align: center;
+		padding-top: 29px;
+	}
+	.dd-mobile-big-slogan{
+		font-size: 45px;
+		padding-bottom: 4px;
+	}
+	.dd-mobile-big-slogan2{
+		font-size: 27px;
+	}
+	.div-left{
+		float: left;
+	}
+	.div-right{
+		float: right;
+		padding-top: 14px;
+		.dd-span-phone{
+			background: url(../img/tw.png) no-repeat;
+			color:#fff !important;
+			span{
+				color:#fff !important;
+				background: none;
+			}
+		}
+	}
 }
+// @media only screen and (min-width : 1248px) {
+// }
 
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     //outline: 5px solid red;
