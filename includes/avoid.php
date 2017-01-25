@@ -24,8 +24,8 @@
 				</div>
 			</div>
 			
-			<div class="col-md-12">
-				<a href="#" class="button-1">заказать настоящие камни</a>
+			<div class="col-md-12 db-center">
+				<a href="#" class="df-link db-link-avoid">заказать настоящие камни</a>
 			</div>
 		</div>
 	</div>

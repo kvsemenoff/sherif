@@ -12,26 +12,34 @@
 	<link rel="stylesheet" href="libs/slick/slick.css" />
 	<link rel="stylesheet" href="libs/wow/animate.css">
 	<link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
-
+	<link rel="stylesheet" href="photo3d-html-files/v3/css/style.css" type="text/css" media="all" />
 	<link rel="shortcut icon" href="favicon.ico" />
 	<link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
+
 	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
 	<script src="libs/owl.carousel/owl.carousel.js"></script>
 	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
 	<script src="libs/slick/slick.min.js"></script>
 	<script src="libs/wow/wow.min.js"></script>
-	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
 	<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
-
-	<script>
-    	new WOW().init();
-    </script>
+	<script src="photo3d-html-files/v3/js/canvasloader.js" type="text/javascript"></script>
+	<script src="photo3d-html-files/v3/js/jquery.fullscreen-0.3.5.js" type="text/javascript"></script>
+	<script src="photo3d-html-files/v3/js/jquery.mousewheel.js" type="text/javascript"></script>
+	<script src="photo3d-html-files/v3/js/jquery.selection.js" type="text/javascript"></script>
+	<script src="photo3d-html-files/v3/js/jquery.metadata.js" type="text/javascript"></script>
+	<script src="photo3d-html-files/v3/js/jquery.photo3d.js" type="text/javascript"></script>
+	<script src="photo3d-html-files/v3/js/jquery.photo3dconfig.js" type="text/javascript"></script>
+	<script src="photo3d-html-files/v3/js/device.min.js" type="text/javascript"></script>
+<!-- 	<script>
+		new WOW().init();
+	</script> -->
 
 	<script src="js/responsiveTabs.js"></script>
 	<script src="js/jquery.maskedinput.min.js"></script>
+	
 	<script src="js/common.js"></script>
 
 
