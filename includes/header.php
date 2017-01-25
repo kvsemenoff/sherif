@@ -33,12 +33,13 @@
 	<script src="photo3d-html-files/v3/js/jquery.photo3d.js" type="text/javascript"></script>
 	<script src="photo3d-html-files/v3/js/jquery.photo3dconfig.js" type="text/javascript"></script>
 	<script src="photo3d-html-files/v3/js/device.min.js" type="text/javascript"></script>
-	<script>
+<!-- 	<script>
 		new WOW().init();
-	</script>
+	</script> -->
 
 	<script src="js/responsiveTabs.js"></script>
 	<script src="js/jquery.maskedinput.min.js"></script>
+	
 	<script src="js/common.js"></script>
 
 
