@@ -12,8 +12,8 @@
 }
 .df-cap1{
 	text-align: center;
-	font-family: 'Exo2-Bold';
-	font-size: 36px;
+	font-family: 'Exo2-Bold';	
+	font-size: 24px;
 	color:#010101;	
 	letter-spacing: 0.1px;
 	margin-bottom: 24px;
@@ -300,17 +300,141 @@
 }
 
 
+/*===================stop give===========*/
+.df-stop-give_view{
+	background-color: #fff8ff;
+}
+.df-stop-give__img_view{
+	display: inline-block;	
+	max-width: 310px;
+	width: 100%;
+	height: 220px;
+	img{
+		width: 100%;
+		height: auto;
+	}	
+}
+.df-stop-give__txt_view{
+	font-size: 15px;
+	color:#000000;
+	line-height: 24px;
+	letter-spacing: 0.2px;
+	font-family: 'Exo2-Regular';
+	width: 85%;	
+	display: inline-block;
+	text-align: left;
+    vertical-align: top;
+	strong{
+		font-family: 'Exo2-Bold';
+	}
+}
 
 
+.df-stop-give__pluses_view{
+	text-align: center;	
+	margin-top: 10px;
+    padding-left: 4px;
+	h4{
+		font-size: 15px;
+		color:#000000;
+		line-height: 23px;
+		letter-spacing: 0.2px;
+		font-family: 'Exo2-Bold';
+		margin-bottom: 19px;
+	}
+	span{
+		font-size: 15px;
+		color:#000000;
+		line-height: 30px;
+		letter-spacing: 0.2px;
+		text-align: left;
+		font-family: 'Exo2-Regular';		
+		display: block;
+		margin-bottom: 3px;
+   		padding-left: 36px;
+		background-image: url("../img/df-galka.png");
+		background-repeat: no-repeat;
+		background-position: left center;
+	}
+}
 
 
-
-
-
-
-
-
-
+.df-stop-give__2blocks_view{	
+	h3{		
+		font-size: 13px;
+		line-height: 25px;
+		color:#010101;
+		font-family: 'Exo2-Bold';
+		letter-spacing: 0.2px;
+		text-transform: uppercase;		
+		margin: 10px 0 -10px 0;
+		text-align: center;
+	}
+}
+.df-stop-give__L_view{
+	max-width: 570px;
+	max-height: 440px;
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	margin-top: 85px;  
+    margin-bottom: 50px;
+    position: relative; 
+    #demo{
+    	img{
+    		max-width: 570px;
+    		width: 100%;
+    		height: 440px;
+    	}
+    }   
+}
+.df-shadow2{
+	position: absolute;
+	bottom: -85;
+	left:0;
+	max-width: 570px;
+	width: 100%;	
+}
+.df-stop-give__R_view{
+	display: inline-block;
+	max-width: 590px;
+	width: 100%;
+	text-align: left;
+	vertical-align: top;
+	background-color: #fbfbfb;	
+	padding-left: 10px;
+	text-align: center;
+	h3{
+		font-size: 22px;
+		color:#010101;
+		font-family: 'Exo2-Bold';
+		letter-spacing: 0.2px;
+		text-transform: uppercase;
+		margin: 36px 0 26px 12px;
+		text-align: left;
+	}
+	span{
+		display: block;
+		text-align: left;
+		font-family: 'Exo2-Regular';
+		padding-left: 50px;
+		background-image: url("../img/df-galka2.png");
+		background-repeat: no-repeat;
+		background-position: left top 2px;
+		font-size: 16px;
+		color:#000000;
+		line-height: 29px;
+		letter-spacing: 0.2px;
+		margin-bottom: 11px;		
+	}
+}
+.df-stopGive-link{
+	margin-top: 20px;
+	font-size: 25px;
+	line-height: 25px;	
+	max-width: 390px;
+	width: 100%;
+}
 @media only screen and (min-width : 320px) {
 }
 
@@ -345,9 +469,41 @@
 	.df-padding{
 		padding: 25px 90px !important;
 	}
+
+	/*stop give*/
+	.df-shadow2{
+		display: none;	
+	}
+	.df-stop-give__img_view{		
+		width: 175px;
+		height: 130px;	
+	}
+	.df-stop-give__txt_view{		
+		padding:3px 20px 0 23px;		
+	}
+	.df-stop-give__pluses_view{
+		margin-top: -17px;
+	}
+	.df-stop-give__2blocks_view{
+		text-align: left;
+		h3{
+			font-size: 22px;			
+			margin: 31px 0 42px 12px;			
+			text-align: left;   	
+		}
+	}
+	.df-stop-give__L_view{		
+	    margin-left: -6px;	   
+	}
+	.df-stop-give__R_view{		
+		padding-left: 39px;
+	}	
 }
 
 @media only screen and (min-width : 992px) {
+	.df-cap1{
+		font-size: 36px;	
+	}
 	.df-link{		
 		background-size: unset;		
 		padding: 25px 30px;

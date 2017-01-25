@@ -11,13 +11,11 @@
 
 .wrapper--top {
 	position: relative;
-	display: inline-block;
-	/*outline: 1px solid #ccc;*/
+	display: inline-block;	
 }
 
 .wrapper--3d {
 	background: #fff;
-/*fafafa; /* Должен соответствовать цвету фона изображения */
 	overflow: hidden;
 }
 
@@ -35,8 +33,10 @@
 	position: absolute;
 }
 
-.icon--panel {
-	/*background: green;*/
+.icon--panel {	
+	width: 300px !important;
+	text-align: center;
+	margin: 0 auto;
 	padding: 10px;
 	position: absolute;
 	font-family: 'icomoon';
@@ -44,9 +44,7 @@
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
-	text-transform: none;
-	/*line-height: 1;*/
-	/* Better Font Rendering =========== */
+	text-transform: none;	
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -66,8 +64,8 @@
 
 .icon--panel a {
 	color: #fff;
-	width: 30px;
-	height: 30px;
+	width: 45px;
+	height: 45px;
 	font-size: 30px;
 	cursor: pointer;
 	padding: 10px;
