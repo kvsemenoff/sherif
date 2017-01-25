@@ -210,8 +210,15 @@
 .df-not-end_view{
 
 }
+.df-notend{
+	
+}
 .df-not-end__leftbox_view{
-
+	max-width: 700px;
+	width: 100%;
+	float: left;
+	padding-left: 10px;
+	margin-top: 30px;
 }
 .df-not-end__block_view{
 	display: block;
@@ -225,37 +232,80 @@
 	max-width: 590px;
 	width: 100%;
 	float: left;
+	padding: 10px 14px 0 6px;
 	span{
 		font-size: 14px;
 		font-family: 'Exo2-Bold';
 		color:#000;
 		line-height: 22px;
 		letter-spacing: 0.2px;
+		text-transform: uppercase;
+		margin-bottom: 8px;
+   		display: inline-block;
 	}
 }
-
-
-.df-not-end__rightbox_view{
-
+.df-padiings{
+	padding: 0px 14px 0 7px;
 }
-.df-not-end__img_view{
-	background-color: white;
-	background-image: url("../img/df-shadow.png");
-	background-repeat: no-repeat;
-	background-position: center center;
-	padding: 30px;
-	max-width: 455px;
-	background-size: cover;
-	width: 100%;
-	img{
-		display: inline-block;
-    	margin: 15px 0;
+.df-padiings2{
+	padding: 19px 12px 0 7px;
+}
+.df-not-end__rightbox_view{
+	float: left;
+	max-width: 490px;
+	width: 100%;	
+    margin: -13px 0 0 -11px;
+	h4{
+		font-size: 15px;
+		color:#3e3e3e;
+		font-family: 'Exo2-Bold';
+		line-height: 25px;
+		text-transform: uppercase;
+		letter-spacing: 0.2px;
+	}
+}
+.df-not-end__img_view{ 	
+		background-color: white;
+		background-image: url("../img/df-shadow.png");
+		background-repeat: no-repeat;
+		background-position: center center;		
+		background-size: cover;
+		margin-bottom: 25px;
+		padding: 11px;
+	div{
+		// padding: 37px 13px;
+	    // max-width: 455px;
+	    // width: 100%;
+	    margin: 0 auto;
+	    height: 215px;
+	    max-width: 471px;
+	    width: 100%;
+	    position: relative;		
+		img{
+			// padding: 0 8px;
+			max-width: 455px;
+			width: 100%;
+			height: 200px;
+			position: absolute;
+			top:8px;
+			left:8px;
+			padding: 11px 17px;
+		}
 	}
 }
 .df-not-end__h3_view{
-
+	font-family: 'Exo2-Bold';
+	font-size: 19px;
+	line-height: 22px;
+	letter-spacing: 0.2px;
+	text-transform: uppercase;
+	text-align: center;
+	color:#bd040d;
+	margin-bottom: 20px;
 }
-
+.df-padding{
+	padding: 25px 90px !important;
+}
 
 
 
