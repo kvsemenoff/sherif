@@ -2,14 +2,93 @@
 /* Шапка mobile
 =====================================*/
 
-.section-header-view{
-	background: url(../img/head-bg.jpg) no-repeat top center;
+.section-header-mobile-view{
+	background: url(../img/mob-bg.jpg) no-repeat top center;
+	width: 100%;
+	background-size:cover; 
+	z-index:1;
+	// height: 403px;
 }
-
-
-
-
-
+.dd-mobile-tel{
+	height: 50px;
+	background: #462D1D;
+	padding: 0px 15px 13px 0px;
+	z-index:9999;
+	.dd-tel-wrap{
+		float:right;
+		padding-top: 13px;
+		span{
+			display: inline-block;
+			font-family: 'Exo2-Bold';
+			color:#fff;
+			font-size: 17px;
+			background: url(../img/tel.png) no-repeat left;
+			padding-left: 20px;
+			padding-top: 1px;
+			height: 25px;
+			span{
+				font-family: 'Exo2-Regular';
+				background: none;
+			}
+		}
+	}
+}
+.dd-ico-wrap{
+	height: 50px;
+	width: 68px;
+	padding: 13px 13px;
+	float:left;
+	background:#361F0F;
+	cursor:pointer;
+}
+.dd-mobile-nav{
+	text-align:center;
+	display:none;
+	position: absolute;
+	z-index:9999;
+	width: 100%;
+	li{
+		a{
+			display: block;
+			background: #684226;
+			opacity: 0.96;
+			border-bottom: 2px solid #341E03;
+			padding: 11px 0px;
+			color:#fff;
+			text-transform: uppercase;
+			font-family: 'Exo2-SemiBold';
+		}
+		a:hover{
+			background: #423123;
+			opacity: 0.96;
+		}
+	}
+	li:last-child{
+		a{
+			border-bottom:none;
+		}
+	}
+}
+.dd-mobile-logo{
+	float:left;
+	// margin-top: -20px;
+	// position:absolute;
+	// top:-10px;
+	// left:0;
+	z-index:1;
+}
+// Фиксируем меню при скроле
+.header-no-fixed{
+    display:none;
+    position:none;
+}
+// Тут задаем изменение фона шапки при скроле
+.header-fixed{
+    position:fixed;
+    top:0;
+    z-index:9999;
+    width:100%;
+}
 
 
 
@@ -34,7 +113,7 @@
     //outline: 5px solid red;
 }
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
-  
+
 }
 .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
 }
