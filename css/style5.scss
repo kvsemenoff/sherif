@@ -216,7 +216,8 @@
 .df-not-end__leftbox_view{
 	max-width: 700px;
 	width: 100%;
-	float: left;
+	// float: left;
+	margin: 0 auto;
 	padding-left: 10px;
 	margin-top: 30px;
 }
@@ -226,13 +227,15 @@
 .df-not-end__img1_view{
 	width: 100px;
 	float: left;
+	margin: 0 auto;
 }
 .df-txt_view{
 	text-align: left;
-	max-width: 590px;
-	width: 100%;
+	max-width: 290px;
+	margin-bottom: 15px;
 	float: left;
-	padding: 10px 14px 0 6px;
+	width: 100%;	
+	padding: 10px 0px 0 6px;
 	span{
 		font-size: 14px;
 		font-family: 'Exo2-Bold';
@@ -250,11 +253,11 @@
 .df-padiings2{
 	padding: 19px 12px 0 7px;
 }
-.df-not-end__rightbox_view{
-	float: left;
+.df-not-end__rightbox_view{	
 	max-width: 490px;
 	width: 100%;	
-    margin: -13px 0 0 -11px;
+    margin: 0 auto;
+    clear: both;
 	h4{
 		font-size: 15px;
 		color:#3e3e3e;
@@ -264,29 +267,18 @@
 		letter-spacing: 0.2px;
 	}
 }
-.df-not-end__img_view{ 	
-		background-color: white;
-		background-image: url("../img/df-shadow.png");
-		background-repeat: no-repeat;
-		background-position: center center;		
-		background-size: cover;
+.df-not-end__img_view{ 			
 		margin-bottom: 25px;
 		padding: 11px;
-	div{
-		// padding: 37px 13px;
-	    // max-width: 455px;
-	    // width: 100%;
-	    margin: 0 auto;
-	    height: 215px;
+		height: auto;
+	div{	
+	    margin: 0 auto;	  
 	    max-width: 471px;
-	    width: 100%;
-	    position: relative;		
-		img{
-			// padding: 0 8px;
+	    width: 100%;	    
+		img{			
 			max-width: 455px;
 			width: 100%;
-			height: 200px;
-			position: absolute;
+			height: 200px;			
 			top:8px;
 			left:8px;
 			padding: 11px 17px;
@@ -304,7 +296,7 @@
 	margin-bottom: 20px;
 }
 .df-padding{
-	padding: 25px 90px !important;
+	padding: 25px 30px !important;
 }
 
 
@@ -323,9 +315,36 @@
 }
 
 @media only screen and (min-width : 480px) {
+	/*not end*/
+	.df-not-end__img1_view{		
+		float: left;		
+	}
+	.df-txt_view{		
+		float: left;
+		max-width: 590px;
+		margin-bottom: 0px;		
+	}
 }
 
 @media only screen and (min-width : 768px) {
+	/*not end*/
+		.df-not-end__img_view{ 	
+			background-color: white;
+			background-image: url("../img/df-shadow.png");
+			background-repeat: no-repeat;
+			background-position: center center;		
+			background-size: cover;
+		div{			    
+		    height: 215px;		   
+		    position: relative;		
+			img{				
+				position: absolute;			
+			}
+		}
+	}
+	.df-padding{
+		padding: 25px 90px !important;
+	}
 }
 
 @media only screen and (min-width : 992px) {
@@ -337,8 +356,9 @@
 	.df-must-txt-box_left_view{		
 		float: left;		
 	}
+
 	.df-must-txt-box__right_view{		
-		float: left;
+		float: left;		
 		padding: 20px 0 0 35px;
 		span{			
 			margin:25px 0 16px 0; 
@@ -353,6 +373,22 @@
 	.df-must-all_view{		
 		border-right: 1px solid #e9e9e9;		
 	}
+	
+	/*============not end*/
+	.df-not-end__leftbox_view{		
+		float: left;		
+	}
+	
+	.df-not-end__rightbox_view{
+		clear: none;
+		float: left;	
+	    margin: -13px 0 0 -11px;
+	}
+	.df-txt_view{		
+		padding: 10px 14px 0 6px;
+	}	
+
+
 }
 
 @media only screen and (min-width : 1248px) {
