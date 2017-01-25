@@ -1,7 +1,8 @@
 .section_avoid-db{
 	background: url("../img/db-avoid.jpg")no-repeat center;
 	background-size: cover;
-	padding-bottom: 200px !important;
+	padding-bottom: 250px !important;
+
 }
 
 .avoid-one, .avoid-two, .avoid-three, .avoid-four{
@@ -17,6 +18,7 @@
 	}
 
 }
+
 .avoid-h2{
 	color:#fff;
 	line-height: 13px;
@@ -56,21 +58,48 @@ padding-top:30px;
 	text-align: center;
 	// outline: 1px solid red;
 }
-@media only screen and (min-width : 320px) {
 
+
+.db-link-avoid:after, .db-link-avoid:before{
+	box-shadow: none !important;
+}
+
+.db-center{
+	text-align: center;
+	margin-top: -12px;
+}
+.db-stone-link{
+	font-size: 12px !important;
+	margin-top: 20px	;
+}
+
+@media only screen and (min-width : 320px) {
+.db-link-avoid{
+	font-size: 12px !important;
+	margin-top: 30px !important;
+}
 }
 
 @media only screen and (min-width : 480px) {
-	.db-stone-h2{
-		padding-top:70px;
-	}
+
+
+	.db-link-avoid{
+	font-size: 22px !important;
+	margin-top: 30px !important;
+}
 }
 
 @media only screen and (min-width : 768px) {
 }
 
 @media only screen and (min-width : 992px) {
-
+.db-stone-link{
+	font-size: 20px !important;
+	padding: 37px 24px !important;
+	text-align: left;
+	display: block !important;
+	margin-left: 0 !important;
+}
 	.avoid-one, .avoid-two, .avoid-three, .avoid-four{
 		text-align: left;
 		padding: 0 0 49px 94px;
@@ -81,9 +110,10 @@ padding-top:30px;
 text-transform: uppercase;
 text-align: center;
 padding-bottom: 74px;
-padding-top: 113px;
+padding-top: 11px;
 font-size: 36px;
 }
+
 
 
 .db-stone-one{
@@ -117,7 +147,19 @@ margin-left: 0;
 	
 	// outline: 1px solid red;
 }
+.db-link-avoid{
+	padding: 37px 24px !important;
+	margin-top: 0px !important;
 
+}
+.db-link-avoid:after, .db-link-avoid:before{
+	box-shadow: none !important;
+}	
+
+.section_avoid-db{
+	margin-top:310px;
+	padding: 142px 0 !important;
+}
 
 }
 
