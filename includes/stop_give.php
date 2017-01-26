@@ -32,27 +32,18 @@
 						<h3>В комплекте идут:</h3>
 						<span>камни 12 штук, размер 20х20х20 мм</span>
 						<span>подарочная упаковка из натурального дерева</span>
-						<span>стильный плетённый мешочек для    хранения камней из 100% натуральной ткани</span>
+						<span>стильный плетённый мешочек для хранения камней из 100% натуральной ткани</span>
 						<span>специальный мешочек-антисептик для хранения в морозилке</span>
 						<span>сертификат подлинности камней</span>
 						<span>фирменный магнит на холодильник</span>
 						<span>фирменный подарочный пакет</span>
 						<span>специальная плотная коробка длябезопасной транспортировки</span>
-						<a href="#" class="df-link df-stopGive-link">Заказать</a>
+						<a href="#" class="df-link">Заказать</a>
+						
+						<img src="img/df-shadow3.png" alt="" class="img-responsive df-shadow-B">
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
-<!-- <script>
-	$(document).ready(function(){
-		$('#demo span').click(function(){
-			$("#demo").vc3dEye({
-				imagePath:"/img3d/", 
-				totalImages:60,
-				imageExtension: "jpg"
-			});
-		});
-});
-</script> -->
