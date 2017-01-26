@@ -49,6 +49,9 @@
 				<span>фирменный магнит на холодильник</span>
 				<span>фирменный подарочный пакет</span>
 				<span>специальная плотная коробка длябезопасной транспортировки</span>
+				<div class="df-left-shadow">
+					<img src="img/df-shadow4.png" alt="">
+				</div>
 			</div>	
 		</div>
 		<img src="img/df-shadow3.png" alt="" class="img-responsive df-shadow-B">
