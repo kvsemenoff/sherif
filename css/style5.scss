@@ -513,19 +513,309 @@
 
 
 
+/*=============popup===========*/
+.df-messege{
+	// min-height: 177px;
+	max-width: 970px;
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+	// background-image: url("../img/df-popupbg.jpg");
+	background-image: url("../img/df-popupbg2.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	// padding-top: 40px;
+	padding: 90px 0;
+	min-height: 235px;
+	h2{
+		text-transform: uppercase;
+		// font-size: 43px;
+		font-size: 24px;
+		color:#1e1601;
+		margin-bottom: 10px;
+	}
+	span{
+		// font-size: 23px;
+		font-size: 17px;
+		color:#1e1601;
+		line-height: 25px;
+		letter-spacing: 0.2px;
+		font-family: 'Exo2-Regular';
+	}
+}
+
+/*popup2*/
+.df-call{
+	max-width: 977px;
+	width: 100%;
+	margin: 0 auto;
+	border: 1px solid #e2e2e2;
+	text-align: center;
+}
+.df-call__L{
+	max-width: 600px;
+	width: 100%;
+	display: inline-block;
+	// padding: 45px 0 29px 27px;
+	padding: 45px 10px 29px 10px;
+	background-color: #f6f6f7;
+	vertical-align: top;
+	h3{
+		font-size: 23px;
+		color:#1e1601;
+		line-height: 25px;
+		letter-spacing: 0.2px;
+		font-family: 'Exo2-Bold';
+		text-transform: uppercase;
+		margin-bottom: 25px;
+	}
+	.dfspan11{
+		font-size: 19px;
+		color:#1e1601;
+		line-height: 25px;
+		letter-spacing: 0.2px;
+		font-family: 'Exo2-Regular';
+		display: inline-block;		
+		margin-bottom: 25px;
+		strong{
+			font-size: 25px;
+			color:#bd040d;
+			font-family: 'Exo2-Bold';
+		}
+	}
+}
+.df-call__img{
+	border: 5px solid #e4e4e4;
+	max-width: 533px;
+	height: 430px;
+	padding-top: 35px;
+	width: 100%;	
+	text-align: center;
+	background-color: #fff;
+	img{
+		display: inline-block;
+	}
+}
+
+.df-call__R{
+	max-width: 370px;
+	width: 100%;
+	display: inline-block;
+	padding: 20px 0 19px 0px;	
+	input{
+		border: 2px solid #e4e4e4;
+		max-width: 333px;
+		width: 100%;
+		min-height: 43px;
+		display: inline-block;
+		font-size: 18px;
+		color:#b9b9b9;
+		padding-left: 15px;
+		margin-left: 17px;
+		margin-bottom: 3px;
+		font-family: 'Exo2-Regular';
+	}
+}
+.df-call-span, .df-call-span2{
+	font-size: 12px;
+	color:#1e1601;
+	line-height: 25px;
+	letter-spacing: 0.2px;
+	font-family: 'Exo2-Bold';
+	text-transform: uppercase;	
+	display: inline-block;
+	margin-bottom: 24px;
+	margin-left: 17px;
+    text-align: center;
+}
+.df-linkpopup{		
+	margin-top: 20px;
+	font-size: 25px;
+	line-height: 23px;
+	color:#616161;
+	text-transform: uppercase;	
+	max-width: 390px;
+	font-family: 'Exo2-Bold';
+	width: 100%;
+	display: inline-block;	
+	background-image: url("../img/df-linkpopup.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	text-align: center;
+	padding: 20px 0 40px 0;
+}
+.df-call-span2{
+	font-size: 15px;
+	font-family: 'Exo2-Regular';
+	text-transform: none;
+}
+.df-poplink{
+	padding: 17px 0px 40px 0 !important;
+    background-size: contain;
+    text-align: center;
+    margin-left: 0px !important;
+    z-index: 1;
+}
 
 
+.az-select{
+    border: 2px solid #cbd1d6;
+    position: relative;
+    cursor: pointer;
+    font-size: 18px;
+    color:#fff;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    background-color: #c2c2c2;    
+    max-width: 333px;
+	width: 100%;
+	min-height: 43px;
+	font-family: 'Exo2-Regular';
+	margin-left: 17px;
+	margin: 0 0 3px 19px;
+	select{
+	    height: 36px;
+	    width: 100%;
+	    border: none;
+	    background: transparent;
+	    outline: none;
+	    padding: 0 15px;
+	    letter-spacing: 0.02em;
+	    font-family: 'Exo2-Regular';   
+	    cursor: pointer;
+	    -webkit-appearance: none;
+	    -moz-appearance: none;
+	}
+	select::-ms-expand {
+	    display: none;
+	}
+}
 
+.az-options{
+    display: none;
+    top: calc(100% + 2px);
+    left: -2px;
+    width: calc(100% + 4px);
+    position: absolute;
+    background-color: #c2c2c2;    
+    z-index: 6;
+}
+div[data-val]{
+    font-size: 14px;
+    font-family: 'Exo2-Regular';   
+    color: #fff;
+    padding: 0 15px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+    text-align: left;
+}
+div[data-val]:hover{
+    background: rgba(255,255,255,0.2);
+}
+.df-buy-product{
+	width: 122px;
+	height: 37px;		
+	padding:5px 5px 5px 5px;	
+	font-size: 19px;
+	font-family: 'Exo2-Regular';
+	margin-bottom: 4px;	
+	display: table;
+	border: 1px solid #1e1601;
+	display: inline-block;
+    vertical-align: top;
+	.df-number {
+		text-align: center;		
+		border-radius: 3px;
+		display: inline-block;
+		display: table-cell;
+		vertical-align: middle;					
+		width: 45%;
+		color:#1e1601;
+		transition:background 0.5s;
+		vertical-align: middle;
+		user-select: none;
+		-moz-user-select:none;
+		-o-user-select:none;
+		span{
+			color:transparent;
+			padding: 0 1px;
+			cursor: pointer;
+			vertical-align: top;
+		}
+		input{			
+			outline: none;
+			border:none;
+			width: 20px;
+			text-align: center;
+			background: none;
+			width: 70px;							
+		}	
+	}
+}
+.left{
+	background-image: url("../img/df-leftpop.png");
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+.right{
+	background-image: url("../img/df-rightpop.png");
+	background-position: right center;
+	background-repeat: no-repeat;
+}
 
-
-
-
-
-
-
-
-
-
+/*popup contact*/
+.df-contact{
+	border: 1px solid #e2e2e2;
+	max-width: 470px;
+	background-size: cover;
+	text-align: center;
+	max-width: 472px;
+	width: 100%;
+	margin: 0 auto;
+	h2{
+		text-transform: uppercase;		
+		font-size: 24px;
+		color:#1e1601;
+		margin-bottom: 10px;
+	}
+	span{
+		text-transform: uppercase;
+		font-size: 21px;
+		color:#1e1601;
+		line-height: 25px;
+		letter-spacing: 0.2px;
+		font-family: 'Exo2-Regular';
+	}	
+}
+.df-cont{
+	background-image: url("../img/df-popupbg3.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	// background-size: cover;
+	padding: 27px 0;
+}
+.df-inputscont{
+	max-width: 100%;
+	padding: 0 10px;
+	input{
+		width: 100%;
+		max-width: unset;
+		margin: 0 0 3px 0;
+	}
+}
+.df-question{
+	textarea{
+		border: 2px solid #e4e4e4;		
+		width: 100%;		
+		font-size: 18px;
+		color:#b9b9b9;
+		padding-left: 15px;				
+		font-family: 'Exo2-Regular';
+		resize:none;
+	}
+}
 
 @media only screen and (min-width : 320px) {
 	
@@ -599,8 +889,24 @@
 			margin: 36px 0 26px 12px;			
 		}	
 	}
-	
-
+	/*===============popups=============*/
+	.df-messege{		
+		background-image: url("../img/df-popupbg.jpg");		
+		padding: 40px 0 0 0;
+		background-size: unset;		
+		h2{		
+			font-size: 43px;			
+		}
+		span{
+			font-size: 23px;			
+		}
+	}
+	.df-call__L{		
+		padding: 45px 0 29px 27px;
+	}
+	.az-select{	   
+		margin: 0 0 3px 27px;
+	}
 
 }
 
