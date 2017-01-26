@@ -211,10 +211,10 @@
 
 .fix-navbar-top{
 	display:block;
- position: fixed;
- z-index: 1000;
- width: 100%;
- top: 0;
+	position: fixed;
+	z-index: 1000;
+	width: 100%;
+	top: 0;
 }
 
 
@@ -377,7 +377,13 @@
 		.dd-zakazat-big{
 			position:absolute;
 			right: 0;
-			top:72px;
+			top:68px;
+			// top:72px;
+		}
+		@-moz-document url-prefix() { 
+			.dd-zakazat-big{
+				top:72px;
+			}
 		}
 	}
 	.dd-big-slogan{
