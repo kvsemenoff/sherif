@@ -515,28 +515,27 @@
 
 /*=============popup===========*/
 .df-messege{
-	// min-height: 177px;
+	
 	max-width: 970px;
 	width: 100%;
 	text-align: center;
 	margin: 0 auto;
-	// background-image: url("../img/df-popupbg.jpg");
+	
 	background-image: url("../img/df-popupbg2.jpg");
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size: cover;
-	// padding-top: 40px;
+	
 	padding: 90px 0;
 	min-height: 235px;
 	h2{
 		text-transform: uppercase;
-		// font-size: 43px;
 		font-size: 24px;
 		color:#1e1601;
 		margin-bottom: 10px;
 	}
 	span{
-		// font-size: 23px;
+		
 		font-size: 17px;
 		color:#1e1601;
 		line-height: 25px;
@@ -611,8 +610,7 @@
 		display: inline-block;
 		font-size: 18px;
 		color:#b9b9b9;
-		padding-left: 15px;
-		margin-left: 17px;
+		padding-left: 15px;		
 		margin-bottom: 3px;
 		font-family: 'Exo2-Regular';
 	}
@@ -671,9 +669,8 @@
     max-width: 333px;
 	width: 100%;
 	min-height: 43px;
-	font-family: 'Exo2-Regular';
-	margin-left: 17px;
-	margin: 0 0 3px 19px;
+	font-family: 'Exo2-Regular';	
+	margin: 0 0 3px 0px;
 	select{
 	    height: 36px;
 	    width: 100%;
@@ -793,7 +790,7 @@ div[data-val]:hover{
 	background-image: url("../img/df-popupbg3.jpg");
 	background-repeat: no-repeat;
 	background-position: center top;
-	// background-size: cover;
+	background-size: cover;
 	padding: 27px 0;
 }
 .df-inputscont{
@@ -816,6 +813,99 @@ div[data-val]:hover{
 		resize:none;
 	}
 }
+
+/*popup otziv*/
+.df-otziv{
+	max-width: 975px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	border: 1px solid #e2e2e2;
+	.df-messege{
+		min-height: 190px;
+	}
+}
+.df-inpoz{
+	max-width: 445px;
+	width: 100%;
+	display: inline-block;
+	input{
+		border: 2px solid #e4e4e4;		
+		width: 100%;
+		min-height: 43px;
+		display: inline-block;
+		font-size: 18px;
+		color:#b9b9b9;
+		padding-left: 15px;		
+		margin-bottom: 3px;
+		font-family: 'Exo2-Regular';
+	}
+}
+.df-Rbox{
+	max-width: 465px;
+	width: 100%;
+	display: inline-block;	
+}
+.df-otziv-span{
+	vertical-align: middle;
+	display: inline-block;
+}
+.df-firstspan{
+	font-size: 18px;
+	color:#6c6c6c;
+	font-family: 'Exo2-Regular';
+	letter-spacing: 0.2px;
+	line-height: 25px;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.df-littleinp, .df-littleinp2{
+	border: 2px solid #e4e4e4;
+	width: 150px;
+	min-height: 43px;
+	display: inline-block;
+	font-size: 18px;
+	color:#b9b9b9;
+	padding-left: 15px;		
+	margin-bottom: 3px;
+	font-family: 'Exo2-Regular';
+}
+.df-littleinp2{
+	width: 285px;
+}
+
+/*===========confidend popup*/
+
+.df-confident{
+	max-width: 975px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	border: 1px solid #e2e2e2;
+	.df-messege{
+		padding: 20px 0 15px 0;
+	    min-height: unset;
+	    max-width: unset;
+	}	  
+}
+.df-confid-txt{
+	text-align: left;
+	padding: 15px 20px 0 20px;
+	p{
+		font-size: 18px;
+		color:#818181;
+		font-family: 'Exo2-Regular';
+		letter-spacing: 0.2px;
+		line-height: 25px;		
+		margin-bottom: 22px;
+	}
+}
+
+
+
+
+
+
 
 @media only screen and (min-width : 320px) {
 	
@@ -906,6 +996,20 @@ div[data-val]:hover{
 	}
 	.az-select{	   
 		margin: 0 0 3px 27px;
+	}
+	.df-Rbox{		
+		margin-left: 30px;
+	}
+	.df-call__R{		
+		input{			
+			margin-left: 17px;			
+		}
+	}
+	.az-select{		
+		margin: 0 0 3px 19px;
+	}
+	.df-cont{		
+		background-size: unset;		
 	}
 
 }
