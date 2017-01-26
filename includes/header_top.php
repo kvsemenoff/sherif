@@ -130,9 +130,163 @@
 <!-- Конец блок с камнями -->
 
 <!-- Блок Акция -->
-<section>
+<section class="dd-actsia-wrap">
 	<div class="my-container2">
-	
+		<div class="dd-ac-title">
+			<span>Акция</span>
+		</div>
+		<div class="dd-strelka-wrap">
+			<span>Закажите камни для виски до <span class="dd-red">20 января</span> и получите 2 замечательных <span class="dd-red">ПОДАРКА,</span> стоимостью <span class="dd-red">570 рублей!</span></span>
+			<div class="dd-stone">
+				<img src="img/stone.png" alt="">
+			</div>
+		</div>
+		<div class="dd-bonus">
+			<div class="dd-box">
+				<img src="img/b1.png" alt="">
+				<div class="dd-box-txt">
+					<span>Самая полная в мире энциклопедия</span> <span>(960 страниц)</span>
+				</div>
+			</div>
+			<div class="dd-box dd-box2">
+				<img src="img/pl.png" alt="">
+			</div>
+			<div class="dd-box">
+				<img src="img/b2.png" alt="">
+				<div class="dd-box-txt">
+					<span>Спортивные наушники (с mp3-плеером и радио)</span>
+				</div>
+			</div>
+		</div>
+
+		<!-- Таймер -->
+		<div class="dd-line-wrap">
+			<span>До конца акции:</span>
+			<span class="dd-pleft-t">Осталось комплектов:</span>
+			<div class="dd-number-wrap">
+				<span class="dd-number">37</span>
+			</div>
+			<div class="dd-l">
+				<img src="img/line.png" alt="">
+			</div>
+		</div>
+
+		<div class="dd-timer-all-wrap">
+			<div class="dd-timer">
+				<div class="dd-times">
+					<div class="dd-ellipse">
+						<img src="img/ellipse.png" alt="">
+					</div>
+					<div class="dd-div">
+						<span >04</span>
+					</div>
+					<div class="dd-div">
+						<span id="dd-hours"></span>
+					</div>
+					<div class="dd-div">
+
+						<span id="dd-min"></span>
+					</div>
+					<div class="dd-div">
+						
+						<span id="dd-sec"></span>
+					</div>
+					<div class="dd-time-txt dd-time-txt1">
+						<span>Дней</span>
+					</div>
+					<div class="dd-time-txt dd-time-txt4">
+						<span>часов</span>
+					</div>
+					<div class="dd-time-txt dd-time-txt2">
+						<span>минут</span>
+					</div>
+					<div class="dd-time-txt dd-time-txt3">
+						<span>секунд</span>
+					</div>
+				</div>
+			</div>
+			<div class="dd-button">
+				<a href="#" class="df-link df-must-link df-poplink dd-my">Заказать по акции</a>
+			</div>
+		</div>
+
+		<!-- Конец Таймер -->
 	</div>
 </section>
 <!-- Конец блок Акция -->
+
+<script>
+
+	var count = 8;
+	var minutes = 40;
+	var hours = 16;
+
+	var end = 0;
+
+	if (count < 10) {
+		$("#dd-sec").html('0'+count);
+	}
+	else {
+		$("#dd-sec").html(count);
+	}
+	if (minutes < 10) {
+		$("#dd-min").html('0'+minutes);
+	}
+	else {
+		$("#dd-min").html(minutes);
+	}
+	if (hours < 10) {
+		$("#dd-hours").html('0'+hours);
+	}
+	else {
+		$("#dd-hours").html(hours);
+	}
+
+	var counter=setInterval(timer, 1000); //1000 will  run it every 1 second
+
+	function timer()
+	{
+		count = count - 1;
+		if (count<10) {
+			$("#dd-sec").html('0'+count);
+		} else {
+			$("#dd-sec").html(count);
+		}
+		if (count == 0) {
+			minutes = minutes - 1;
+			if (minutes < 10 && minutes >= 0) {
+				$("#dd-min").html('0'+minutes);
+			}
+			if (minutes > 10) {
+				$("#dd-min").html(minutes);
+			}
+			if (minutes < 0) {
+				hours = hours - 1;
+				if (hours < 10 && hours >=0) {
+					$("#dd-hours").html('0'+hours);
+				}
+				if (hours>10) {
+					$("#dd-hours").html('0'+hours);
+				}
+				if (hours < 0 ) {
+					
+					end = 1;
+					clearTimeout(counter);
+				}
+				if (end) { minutes = '00';}
+				else {
+					minutes = 59;
+				}
+				$("#dd-min").html(minutes);
+			}
+			if (end) { count = '00';}
+			else {
+				count = 59;
+			}
+			
+			$("#dd-sec").html(count);
+		}
+	}
+
+	
+</script>
