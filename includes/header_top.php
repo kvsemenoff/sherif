@@ -105,67 +105,34 @@
 	<!-- Конец шапка для декстопа -->
 </section>
 
+<!-- Блок с камнями -->
+<section>
+	<div class="my-container2">
+		<div class="dd-kamni">
+			<img class="img-responsive" src="img/kamni.jpg" alt="">
+			<div class="dd-shadow"></div>
+		</div>
+		<div class="dd-header-list">
+			<div class="dd-left-shadow">
+				<img src="img/leftsh.png" alt="">
+			</div>
+			<ul>
+				<li><span class="dd-pl-li">Изготовлены вручную из натурального <span>СТЕАТИТА</span></span></li>
+				<li><span class="dd-pl-li">12 камней в комплекте, хватит для компании</span></li>
+				<li class="li-mb2"><span class="dd-pl-li">Подарочная упаковка из натурального дерева</span></li>
+				<li class="li-mb"><span class="dd-pl-li dd-pl-li2">В наборе сертификат подлинности и мешочек-антисептик для хранения в морозилке</span></li>
+				<li ><span class="dd-pl-li dd-pl-li2">Оригинальный подарок любому мужчине: другу, мужу, отцу, коллеге</span></li>
+			</ul>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</section>
+<!-- Конец блок с камнями -->
 
-
-
-<script>
-	$('.dd-ico-wrap').click(function(){
-		$('.dd-mobile-nav').slideToggle(500);
-	});
-	$('.dd-mobile-nav').mouseleave(function(){
-		$(this).slideUp(800);
-	});
-</script>
-
-<script>
-    var headerH = $("#js-header").height(),
-        navH = $("#js-nav-container").innerHeight();
-    $(document).on("scroll", function() {
-        var documentScroll = $(this).scrollTop();
-        if(documentScroll > headerH) {
-            $("#js-nav-container").addClass("fix-navbar-top");
-
-            $("#js-header").css({
-                "paddingTop": navH
-            });
-               $("#js-nav-container").css({
-                "display": "block"
-            });
-        } else {
-            $("#js-nav-container").removeClass("fix-navbar-top");
-            $("#js-header").removeAttr("style");
-                 $("#js-nav-container").css({
-                "display": "none"
-            });
-        }
-    });
-</script>
-
-
-<script>
-	$(function() {
-		function navigation_scroll(){
-			var offset = $('.dd-mobile-tel').height() || $(window).height() || 150;
-			var scroll = $(document).scrollTop();
-			if (scroll < 1) {
-				$('.dd-mobile-tel')
-				.toggleClass('header-no-fixed', false)
-				.toggleClass('header-fixed', false);
-			}     
-			else if (scroll >= offset) {
-				$('.dd-mobile-tel')
-				.toggleClass('header-no-fixed', false)
-				.toggleClass('header-fixed', true);
-
-			}
-			else if (scroll < offset - 1) {
-				$('.dd-mobile-tel')
-				.toggleClass('header-fixed', true)
-				.toggleClass('header-no-fixed', false);
-			}
-		}
-		$(document).scroll(function(){
-			navigation_scroll();
-		});
-	});
-</script>
+<!-- Блок Акция -->
+<section>
+	<div class="my-container2">
+	
+	</div>
+</section>
+<!-- Конец блок Акция -->

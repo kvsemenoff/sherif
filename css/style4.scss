@@ -3,6 +3,10 @@
 	margin: 0 auto;
 	display:none;
 }
+.my-container2{
+	max-width:1188px;
+	margin: 0 auto;
+}
 /* Шапка mobile
 =====================================*/
 
@@ -218,6 +222,58 @@
 }
 
 
+/* Блок с камнями в шапке
+====================================*/
+.dd-kamni{
+	position:relative;
+	img{
+		margin: 0 auto;
+	}
+}
+.dd-shadow{
+	background: url(../img/df-shadow2.png) no-repeat top center;
+	background-size: cover;
+	height: 49px;
+	width: 100%;
+	// outline:1px solid red;
+}
+.dd-header-list{
+	li{
+		background: url(../img/df-galka2.png) no-repeat left center;
+		height: 38px;
+		margin-bottom: 8px;
+		margin-left: 10px;
+		span{
+			font-family: 'Exo2-Regular';
+			color: black;
+			font-size: 12px;
+			// font-size: 16px;
+			display: inline-block;
+		}
+	}
+	li:first-child{
+		span{
+			span{
+				font-family: 'Exo2-Bold';
+				color:#6E361D;
+			}
+		}
+	}
+}
+.dd-pl-li{
+	padding-left: 46px;
+	padding-top: 4px;
+}
+.dd-left-shadow{
+	display: none;
+}
+
+
+
+
+
+
+
 @media only screen and (min-width : 320px) {
 	.dd-mobile-title, .dd-mobile-title2{
 		font-size: 16px;
@@ -250,6 +306,9 @@
 }
 
 @media only screen and (min-width : 480px) {
+	.dd-shadow{
+		height: 87px;
+	}
 	.dd-mobile-zakazat-wrap{
 		padding-right: 122px;
 	}
@@ -269,13 +328,65 @@
 }
 
 @media only screen and (min-width : 768px) {
+	// .dd-shadow{
+	// 	display: none;
+	// }
+	.dd-header-list{
+		margin: 0 auto;
+		width: 468px !important;
+	}
 }
 
 @media only screen and (min-width : 992px) {
-	
+	.dd-shadow{
+		display: none;
+	}
+	.dd-kamni{
+		float: left;
+		padding-left: 18px;
+	}
+	.dd-header-list{
+		width: 584px;
+		float: left;
+		padding-top: 34px;
+		padding-left: 10px;
+		background: #FBFBFB;
+		li{
+			background: url(../img/biggalka.png) no-repeat left center;
+			height: 53px;
+			span{
+				font-size: 16px;
+			}
+		}
+		.li-mb{
+			margin-bottom: 29px;
+		}
+	}
+	.dd-pl-li{
+		padding-left: 76px;
+		padding-top: 16px;
+	}
+	.dd-pl-li2{
+		padding-top: 6px;
+	}
+	.li-mb2{
+		margin-bottom: 19px !important;
+	}
+
 }
 
 @media only screen and (min-width : 1248px) {
+	.dd-header-list{
+		margin-left: 72px;
+		position:relative;
+		.dd-left-shadow{
+			display: block;
+			position:absolute;
+			left:-64px;
+			top:0;
+		}
+	}
+	// Конец блока с камнями
 	.section-header-mobile-view{
 		height: 291px;
 	}
