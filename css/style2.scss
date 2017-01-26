@@ -1,8 +1,38 @@
+
+// .db-deliver{
+	
+// 	width: 100%;
+// 	max-width: 200px;
+
+// }
+// .db-deliver{
+// 	outline: 1px solid red;
+// 	width: 100%;
+// 	max-width: 200px;
+// }
+.section_select-db-view{
+	background: url("../img/db-select.jpg") no-repeat center;
+	background-size: cover;
+	outline: 1px solid red;
+	color:#000;
+}
 .section_avoid-db{
 	background: url("../img/db-avoid.jpg")no-repeat center;
 	background-size: cover;
 	padding-bottom: 250px !important;
 
+}
+.db-select-h2{
+	font-family: 'Exo2-Bold';
+	font-size: 24px;
+	text-transform: uppercase;
+	text-align: center;
+
+
+}
+.db-select-one, .db-select-two, .db-select-three{
+	font-family: 'Exo2-Regular';
+	font-size: 14px;
 }
 
 .avoid-one, .avoid-two, .avoid-three, .avoid-four{
