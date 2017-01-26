@@ -160,56 +160,58 @@
 		</div>
 
 		<!-- Таймер -->
-		<div class="dd-line-wrap">
-			<span>До конца акции:</span>
-			<span class="dd-pleft-t">Осталось комплектов:</span>
-			<div class="dd-number-wrap">
-				<span class="dd-number">37</span>
-			</div>
-			<div class="dd-l">
-				<img src="img/line.png" alt="">
-			</div>
-		</div>
-
-		<div class="dd-timer-all-wrap">
-			<div class="dd-timer">
-				<div class="dd-times">
-					<div class="dd-ellipse">
-						<img src="img/ellipse.png" alt="">
-					</div>
-					<div class="dd-div">
-						<span >04</span>
-					</div>
-					<div class="dd-div">
-						<span id="dd-hours"></span>
-					</div>
-					<div class="dd-div">
-
-						<span id="dd-min"></span>
-					</div>
-					<div class="dd-div">
-						
-						<span id="dd-sec"></span>
-					</div>
-					<div class="dd-time-txt dd-time-txt1">
-						<span>Дней</span>
-					</div>
-					<div class="dd-time-txt dd-time-txt4">
-						<span>часов</span>
-					</div>
-					<div class="dd-time-txt dd-time-txt2">
-						<span>минут</span>
-					</div>
-					<div class="dd-time-txt dd-time-txt3">
-						<span>секунд</span>
-					</div>
+		<div class="dd-float-timer">
+			<div class="dd-line-wrap">
+				<span>До конца акции:</span>
+				<span class="dd-pleft-t">Осталось комплектов:</span>
+				<div class="dd-number-wrap">
+					<span class="dd-number">37</span>
+				</div>
+				<div class="dd-l">
+					<img src="img/line.png" alt="">
 				</div>
 			</div>
-			<div class="dd-button">
-				<a href="#" class="df-link df-must-link df-poplink dd-my">Заказать по акции</a>
+
+			<div class="dd-timer-all-wrap">
+				<div class="dd-timer">
+					<div class="dd-times">
+						<div class="dd-ellipse">
+							<img src="img/ellipse.png" alt="">
+						</div>
+						<div class="dd-div">
+							<span >04</span>
+						</div>
+						<div class="dd-div">
+							<span id="dd-hours"></span>
+						</div>
+						<div class="dd-div">
+
+							<span id="dd-min"></span>
+						</div>
+						<div class="dd-div">
+
+							<span id="dd-sec"></span>
+						</div>
+						<div class="dd-time-txt dd-time-txt1">
+							<span>Дней</span>
+						</div>
+						<div class="dd-time-txt dd-time-txt4">
+							<span>часов</span>
+						</div>
+						<div class="dd-time-txt dd-time-txt2">
+							<span>минут</span>
+						</div>
+						<div class="dd-time-txt dd-time-txt3">
+							<span>секунд</span>
+						</div>
+					</div>
+				</div>
+				<div class="dd-button">
+					<a href="#" class="df-link df-must-link df-poplink dd-my">Заказать по акции</a>
+				</div>
 			</div>
 		</div>
-
+		<div class="clearfix"></div>
 		<!-- Конец Таймер -->
 	</div>
 </section>

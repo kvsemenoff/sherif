@@ -436,6 +436,9 @@
 
 .dd-button{
 	text-align:center;
+	.dd-my{
+		padding-top: 12px !important;
+	}
 }
 	@media only screen and (min-width : 320px) {
 		.dd-mobile-title, .dd-mobile-title2{
@@ -501,6 +504,17 @@
 		margin: 0 auto;
 		width: 468px !important;
 	}
+	// Таймер
+	.dd-strelka-wrap, .dd-bonus{
+		float: left;
+	}
+	.dd-bonus{
+		margin-top: 0;
+	}
+	.dd-float-timer{
+		float: right;
+	}
+	// конец таймер
 }
 
 @media only screen and (min-width : 992px) {
@@ -536,7 +550,6 @@
 	.li-mb2{
 		margin-bottom: 19px !important;
 	}
-
 }
 
 @media only screen and (min-width : 1248px) {
