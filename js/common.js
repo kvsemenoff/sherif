@@ -182,9 +182,15 @@ $(".form1").submit(function() {
       location = "spasibo.php";
   };
 
-
-
-
+/*якоря*/
+ $(".dd-relative a, .div-left a, .dd-mobile-nav a").click(function(e){
+      e.preventDefault();
+      var currentBlock = $(this).attr("href");
+      currentBlockoffset = $(currentBlock).offset().top;
+      $("html, body").animate({
+        scrollTop: currentBlockoffset
+      }, 500);
+    });
 });
 
 

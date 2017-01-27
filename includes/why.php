@@ -1,6 +1,6 @@
 <section class="section section_padding section_why-padding">
 	<div class="container">
-		<div class="row">
+		<div class="row" id="why">
 			<div class="col-md-12">
 
 				<h2 class="db-why-h2">Зачем нужны камни для виски?</h2>
