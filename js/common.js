@@ -1,7 +1,8 @@
 
 
 $(document).ready(function(){
-  
+    document.onselectstart = noselect;
+    function noselect() {return false;}
   $('.az-select').each(function(){
     var select = $(this);    
     var option = select.find('select option');
