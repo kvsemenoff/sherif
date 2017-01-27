@@ -1,6 +1,6 @@
 <section class="section section_padding section_db-test-view">
 	<div class="container">
-		<div class="row">
+		<div class="row" id="testimonials">
 			<div class="col-md-12">
 				<h2 class="db-test-h2">Посмотрите отзывы довольных покупателей <br>
 					о камнях Sheriff Premium</h2>

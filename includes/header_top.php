@@ -11,8 +11,8 @@
 			<ul class="dd-mobile-nav">
 				<li><a href="#complect">Что в комплекте</a></li>
 				<li><a href="#lookat">Почему камни Sheriff</a></li>
-				<li><a href="#lookat">О пользе камней</a></li>
-				<li><a href="#">Отзывы</a></li>
+				<li><a href="#why">О пользе камней</a></li>
+				<li><a href="#testimonials">Отзывы</a></li>
 				<li><a href="#deliver">Доставка и оплата</a></li>
 			</ul>
 		</div>
@@ -63,8 +63,8 @@
 				<ul>
 					<li class="li-no-padding"><a href="#complect">Что в комплекте</a></li>
 					<li><a href="#lookat">Почему камни sheriff?</a></li>
-					<li><a href="#lookat">О пользе камней</a></li>
-					<li><a href="#">Отзывы</a></li>
+					<li><a href="#why">О пользе камней</a></li>
+					<li><a href="#testimonials">Отзывы</a></li>
 					<li><a href="#deliver">Доставка и оплата</a></li>
 				</ul>
 			</div>
@@ -92,8 +92,8 @@
 			<ul class="dd-relative">
 				<li><a class="pleft" href="#complect">Что в комплекте</a></li>
 				<li><a href="#lookat">Почему камни sheriff</a></li>
-				<li><a href="#lookat">О пользе камней</a></li>
-				<li><a href="#">Отзывы</a></li>
+				<li><a href="#why">О пользе камней</a></li>
+				<li><a href="#testimonials">Отзывы</a></li>
 				<li><a class="dd-after" href="#deliver">Доставка и оплата</a></li>
 			</ul>
 			<div class="dd-zakazat-big">
