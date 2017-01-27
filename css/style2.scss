@@ -1,20 +1,22 @@
+.db-deliver{
 
-// .db-deliver{
-	
-// 	width: 100%;
-// 	max-width: 200px;
 
-// }
-// .db-deliver{
-// 	outline: 1px solid red;
-// 	width: 100%;
-// 	max-width: 200px;
-// }
+}
+.db-select-span{
+	font-family: 'Exo2-Bold';
+	font-size:14px;
+	text-transform: uppercase;
+	line-height:21px;
+	text-align: center;
+	display:block;
+	padding-top: 20px;
+}
 .section_select-db-view{
 	background: url("../img/db-select.jpg") no-repeat center;
 	background-size: cover;
-	outline: 1px solid red;
+	// outline: 1px solid red;
 	color:#000;
+	padding:100px 0 !important;
 }
 .section_avoid-db{
 	background: url("../img/db-avoid.jpg")no-repeat center;
@@ -27,13 +29,61 @@
 	font-size: 24px;
 	text-transform: uppercase;
 	text-align: center;
-
-
+	
 }
-.db-select-one, .db-select-two, .db-select-three{
+.db-select-one{
+text-align:center;
+}
+.db-select-one, .db-select-two{
 	font-family: 'Exo2-Regular';
 	font-size: 14px;
+	line-height:21px;
+	padding-top: 20px;
 }
+.db-select-a{
+
+	    padding-left: 20px !important;
+    font-size: 17px !important;
+}
+.db-a-container{
+	// outline: 1px solid red;
+	max-width: 410px;
+		margin: 0 auto;
+}
+
+#a5fccd1f979ef97963355f88df78059d .widget-info{
+	position:unset !important;
+	max-width: 300px !important;
+	padding: 20px 10px 15px !important;//20
+	margin:0 auto;
+
+}
+
+.ymaps-2-1-47-map-bg-ru{
+	width:unset !important;
+
+}
+#a5fccd1f979ef97963355f88df78059d .widget-info .widget-map-container{
+	float:unset !important;
+}
+
+.db-p-last{
+			margin-top: 0px !important;
+			width:300px;
+			padding: 20px;
+			margin: 0 auto;
+			text-align: center;
+			margin: 0 auto;
+			font-size: 14px;
+			font-family:"Exo2-Regular";
+			a{
+				color: #207497;
+				font-family: "Exo2-Bold";
+				text-decoration: underline;
+				padding: 0 10px;
+			}
+		}
+
 
 .avoid-one, .avoid-two, .avoid-three, .avoid-four{
 	background: url("../img/db-above.png")no-repeat top left;
@@ -169,7 +219,52 @@ padding-top:30px;
 	}
 
 	@media only screen and (min-width : 992px) {
+		.db-p-last{
+			margin-top: 100px;
+			max-width: 1000px;
+			width:unset;
+			margin: 0 auto;
+			font-size: 23px;
+			font-family:"Exo2-Regular";
+			a{
+				color: #207497;
+				font-family: "Exo2-Bold";
+				text-decoration: underline;
+				padding: 0 30px;
+			}
+		}
+.db-select-h2{
+	font-size: 36px;
+	padding-bottom: 20px;
+}
+.db-select-a {
+	margin-top: 50px !important;
+    padding-left: 80px !important;
+    font-size: 25px !important;
+}
+		#a5fccd1f979ef97963355f88df78059d .widget-info{
+	
+	max-width: 1160px !important;
+	width: unset !important;
+	padding: 20px 20px 15px !important;//20
+	margin:0 auto;
 
+}
+
+.ymaps-2-1-47-map-bg-ru{
+	width:unset !important;
+
+}
+#a5fccd1f979ef97963355f88df78059d .widget-info .widget-map-container{
+	float:right!important;
+}
+
+.db-select-one{
+text-align:left;
+}
+.db-select-span{
+	text-align: left;
+}
 		.section_why-padding{
 	background: url("../img/db-why-fon.jpg")no-repeat center;	
 	background-size: cover;
@@ -225,7 +320,6 @@ padding-top: 48px;
 
 		.db-stone-link{
 			font-size: 20px !important;
-			padding: 37px 24px !important;
 			text-align: left;
 			display: block !important;
 			margin-left: 0 !important;
@@ -278,7 +372,7 @@ margin-left: 0;
 	// outline: 1px solid red;
 }
 .db-link-avoid{
-	padding: 37px 24px !important;
+	padding: 20px 24px !important;
 	margin-top: 0px !important;
 
 }
