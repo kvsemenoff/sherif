@@ -514,20 +514,18 @@
 
 
 /*=============popup===========*/
-.df-messege{
-	
+.df-messege{	
 	max-width: 970px;
 	width: 100%;
 	text-align: center;
-	margin: 0 auto;
-	
+	margin: 0 auto;	
 	background-image: url("../img/df-popupbg2.jpg");
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size: cover;
-	
+	border:4px solid #9a7715;
 	padding: 90px 0;
-	min-height: 235px;
+	position: relative;	
 	h2{
 		text-transform: uppercase;
 		font-size: 24px;
@@ -543,7 +541,14 @@
 		font-family: 'Exo2-Regular';
 	}
 }
-
+.df-cloself{
+	position: absolute;
+	right:10px;
+	top:10px;
+	width: 17px;
+	height: 17px;
+	cursor: pointer;
+}
 /*popup2*/
 .df-call{
 	max-width: 977px;
@@ -670,7 +675,8 @@
 	width: 100%;
 	min-height: 43px;
 	font-family: 'Exo2-Regular';	
-	margin: 0 0 3px 0px;
+	margin: 0 auto;
+    margin-bottom: 3px;
 	select{
 	    height: 36px;
 	    width: 100%;
@@ -792,6 +798,7 @@ div[data-val]:hover{
 	background-position: center top;
 	background-size: cover;
 	padding: 27px 0;
+	position: relative;
 }
 .df-inputscont{
 	max-width: 100%;
@@ -821,8 +828,11 @@ div[data-val]:hover{
 	margin: 0 auto;
 	text-align: center;
 	border: 1px solid #e2e2e2;
-	.df-messege{
-		min-height: 190px;
+	.df-messege{		 
+	    border: none;
+	    max-width: unset;	   
+	    background-size: cover;
+	    margin-bottom: 15px;
 	}
 }
 .df-inpoz{
@@ -886,6 +896,10 @@ div[data-val]:hover{
 		padding: 20px 0 15px 0;
 	    min-height: unset;
 	    max-width: unset;
+	    border: none;
+	    max-width: unset;
+	    background-size: cover;
+	    margin-bottom: 15px;
 	}	  
 }
 .df-confid-txt{
@@ -901,10 +915,59 @@ div[data-val]:hover{
 	}
 }
 
-
-
-
-
+/*viski popup*/
+.df-viski{
+	max-width: 975px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	border: 1px solid #e2e2e2;
+	padding-bottom: 30px;
+	.df-messege{
+		padding: 20px 0 15px 0;
+	    min-height: unset;
+	    max-width: unset;
+	    border: none;
+	    max-width: unset;
+	    background-size: cover;
+	    margin-bottom: 25px;
+	}	  
+}
+.df-viski-L{
+	max-width: 325px;
+	height: 325px;
+	vertical-align: top;
+	width: 100%;
+	border: 3px solid #c7c7c7;
+	display: inline-block;
+}
+.df-viski-R{
+	max-width: 590px;
+	width: 100%;	
+	display: inline-block;
+	font-size: 18px;
+	color:#818181;
+	font-family: 'Exo2-Regular';
+	letter-spacing: 0.2px;
+	line-height: 25px;	
+	text-align: left;	
+	padding: 0 10px 0 10px ;
+	p{
+		strong{
+			font-size: 20px;
+			color:#bf1b1b;
+			text-transform: uppercase;
+			font-family: 'Exo2-Bold';
+		}
+	}
+	span{
+		display: block;
+		background-image: url("../img/df-tire.png");
+		background-repeat: no-repeat;
+		background-position: left top 13px;
+		padding-left: 17px;
+	}	
+}
 
 
 @media only screen and (min-width : 320px) {
@@ -982,7 +1045,7 @@ div[data-val]:hover{
 	/*===============popups=============*/
 	.df-messege{		
 		background-image: url("../img/df-popupbg.jpg");		
-		padding: 40px 0 0 0;
+		padding: 40px 0 40px 0;
 		background-size: unset;		
 		h2{		
 			font-size: 43px;			
@@ -1000,16 +1063,19 @@ div[data-val]:hover{
 	.df-Rbox{		
 		margin-left: 30px;
 	}
-	.df-call__R{		
-		input{			
-			margin-left: 17px;			
-		}
-	}
+	// .df-call__R{		
+	// 	input{			
+	// 		margin-left: 17px;			
+	// 	}
+	// }
 	.az-select{		
 		margin: 0 0 3px 19px;
 	}
 	.df-cont{		
 		background-size: unset;		
+	}
+	.df-viski-R{		
+		margin-left: 10px;			
 	}
 
 }

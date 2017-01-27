@@ -140,7 +140,12 @@
 			<div class="dd-stone">
 				<img src="img/stone.png" alt="">
 			</div>
+			<div class="dd-stone2">
+				<img src="img/bk.png" alt="">
+			</div>
 		</div>
+
+		<!-- Бонус для мобильного -->
 		<div class="dd-bonus">
 			<div class="dd-box">
 				<img src="img/b1.png" alt="">
@@ -159,6 +164,25 @@
 			</div>
 		</div>
 
+		<!-- Бонус для декстопа -->
+		<div class="dd-bonus2">
+			<div class="dd-box">
+				<img src="img/b4.png" alt="">
+				<div class="dd-box-txt">
+					<span>Самая полная в мире энциклопедия</span> <span>(960 страниц)</span>
+				</div>
+			</div>
+			<div class="dd-box dd-box2">
+				<img src="img/pl2.png" alt="">
+			</div>
+			<div class="dd-box">
+				<img src="img/b5.png" alt="">
+				<div class="dd-box-txt dd-box-txt2">
+					<span>Спортивные наушники (с mp3-плеером и радио)</span>
+				</div>
+			</div>
+		</div>
+
 		<!-- Таймер -->
 		<div class="dd-float-timer">
 			<div class="dd-line-wrap">
@@ -169,6 +193,9 @@
 				</div>
 				<div class="dd-l">
 					<img src="img/line.png" alt="">
+				</div>
+				<div class="dd-l2">
+					<img src="img/line2.png" alt="">
 				</div>
 			</div>
 
