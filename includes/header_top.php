@@ -205,7 +205,7 @@
 						<div class="dd-ellipse">
 							<img src="img/ellipse.png" alt="">
 						</div>
-						<div class="dd-div">
+						<div class="dd-div no-margin">
 							<span >04</span>
 						</div>
 						<div class="dd-div">
@@ -234,8 +234,10 @@
 					</div>
 				</div>
 				<div class="dd-button">
-					<a href="#" class="df-link df-must-link df-poplink dd-my">Заказать по акции</a>
+					<!-- <a href="#" class="df-link df-must-link df-poplink dd-my">Заказать по акции</a> -->
+					<input type="submit" name="submit" value="ОТПРАВИТЬ" class="df-link df-mustlink df-poplink">
 				</div>
+
 			</div>
 		</div>
 		<div class="clearfix"></div>

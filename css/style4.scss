@@ -598,8 +598,64 @@
 			width: 47px;
 			height: 33px;
 			font-size: 27px;
-			padding-left: 3px;
+			padding-left: 5px;
 			letter-spacing: 9px;
+		}
+		.dd-pleft-t{
+			padding-left: 65px;
+		}
+		.dd-number-wrap{
+			top:-17px;
+		}
+	}
+	.dd-timer-all-wrap{
+		width: 368px;
+		margin: 0 auto;
+		text-align: center;
+		.dd-timer{
+			.dd-times{
+				position:relative;
+				.dd-ellipse{
+					position:absolute;
+					top:19px;
+					left:72px;
+				}
+				.dd-div{
+					background:url(../img/t2.png) no-repeat center;
+					// background: black;
+					float: left;
+					margin-left: 8px;
+					height: 63px;
+					width: 84px;
+					position:relative;
+					margin-top: 5px;
+					span{
+						font-size:42px;
+						font-weight: 500;
+						// text-shadow: 0 1px 0 black;
+						font-family: "Times New Roman";
+						color:#421F10;
+						letter-spacing: 14px;
+						padding-left: 14px;
+						line-height: 53px;
+					}
+				}
+				.no-margin{
+					margin-left: 0 !important;
+				}
+				.dd-time-txt{
+					padding-left:29px;
+				}
+				.dd-time-txt2{
+					padding-left:93px;
+				}
+				.dd-time-txt3{
+					padding-left:90px;
+				}
+				.dd-time-txt4{
+					padding-left:66px;
+				}
+			}
 		}
 	}
 
