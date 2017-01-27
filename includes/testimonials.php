@@ -24,10 +24,10 @@
 					<div class="db-otziv-content">
 						<div class="db-otziv-content-one">
 							<img src="img/db-otziv-two.jpg" alt="img" class="img-responsive">
-								<span>Оценка:</span>
+							<span>Оценка:</span>
 						</div>
 						<div class="db-otziv-content-two">
-						<p class="db-first"><span>Татьяна, </span>г. Москва</p>
+							<p class="db-first"><span>Татьяна, </span>г. Москва</p>
 							<p class="db-second">Давно хотела их купить на подарок мужчине своему. И вот купила )) Когда-нибудь у меня закончится беременно вскармливательный период моей жизни и я тоже позволю себе хороший виски с этими камушками ))</p>
 						</div>
 						<div class="clearfix"></div>
@@ -36,7 +36,7 @@
 					<div class="db-otziv-content">
 						<div class="db-otziv-content-one">
 							<img src="img/db-otziv-three.jpg" alt="img" class="img-responsive">
-								<span>Оценка:</span>
+							<span>Оценка:</span>
 						</div>
 						<div class="db-otziv-content-two">
 							<p class="db-first"><span>Александра, </span>г. Новосибирск</p>
@@ -51,7 +51,7 @@
 					<div class="db-otziv-content">
 						<div class="db-otziv-content-one">
 							<img src="img/db-otziv-four.jpg" alt="img" class="img-responsive">
-								<span>Оценка:</span>
+							<span>Оценка:</span>
 						</div>
 						<div class="db-otziv-content-two">
 							<p class="db-first"><span>Елена, </span>г. Ростов на Дону</p>
@@ -64,7 +64,7 @@
 					<div class="db-otziv-content">
 						<div class="db-otziv-content-one">
 							<img src="img/db-otziv-five.jpg" alt="img" class="img-responsive">
-								<span>Оценка:</span>
+							<span>Оценка:</span>
 						</div>
 						<div class="db-otziv-content-two">
 							<p class="db-first"><span>Елена, </span>г. Тверь</p>
@@ -76,7 +76,7 @@
 					<div class="db-otziv-content">
 						<div class="db-otziv-content-one">
 							<img src="img/db-otziv-six.jpg" alt="img" class="img-responsive">
-								<span>Оценка:</span>
+							<span>Оценка:</span>
 						</div>
 						<div class="db-otziv-content-two">
 							<p class="db-first"><span>Елена, </span>г. Москва</p>
@@ -87,13 +87,15 @@
 				</div>
 				<div class="clearfix"></div>
 				<div class="db-down">
-<div class="col-md-6">
-	<a href="#" class="df-link db-link-test">ЗАКАЗАТЬ</a>
-</div>
-<div class="col-md-6">
-	<a href="#" class="db-link">ОСТАВИТЬ ОТЗЫВ</a>
-</div>
-</div>
+				<div class="col-md-6 db-center-test">
+						<a href="#log-in1" name="modal" class="df-link db-link-test">ЗАКАЗАТЬ</a>
+					</div>
+					<div class="col-md-6">
+
+						<a href="#log-in4" name="modal" class="db-link">ОСТАВИТЬ ОТЗЫВ</a>
+
+					</div>
+				</div>
 
 
 			</div>

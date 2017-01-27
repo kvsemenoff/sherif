@@ -207,7 +207,7 @@ padding-top:30px;
 }
 
 .db-test-h2{
-	font-size: 36px;
+	font-size: 20px;
 	text-transform: uppercase;
 	line-height: 52px;
 	text-align: center;
@@ -215,12 +215,16 @@ padding-top:30px;
 	font-family: "Exo2-Bold";
 }
 .db-otziv-block-one{
-	float:left;
+	// float:left;
 padding-right: 20px;
+width: 300px;
+margin: 0 auto;
 }
 
 .db-otziv-block-two{
-	float:left;
+	// float:left;
+	width: 300px;
+margin: 0 auto;
 }
 
 .db-otziv-content{
@@ -270,13 +274,14 @@ text-transform: uppercase;
 
 .db-link-test{
 	text-align: center;
+	margin-top: 30px !important; 
 }
 .db-link{
-background: url("../img/db-link.png") no-repeat;
+background: url("../img/db-link.png") no-repeat center center;
+padding: 34px 50px 55px 30px;
 // background-size: cover;
-max-width: 440px;
+// max-width: 440px;
 width: 100%;
-padding: 23px 50px 40px 30px;
 display: inline-block;
 text-align: center;
 margin-top: 20px;
@@ -290,7 +295,9 @@ float:right;
 .db-down{
 	margin-top:20px;
 }
-
+.db-center-test{
+	    text-align: center;
+}
 
 
 	@media only screen and (min-width : 320px) {
@@ -313,8 +320,26 @@ float:right;
 	}
 
 	@media only screen and (min-width : 992px) {
-		
+		.db-center-test{
+	    text-align: left;
+}
+		.db-otziv-block-one{
+	float:left;
+	width: unset;
+}
+	.db-otziv-block-two{
+	float:left;
+	width: unset;
+}
+		.db-link{
+
+padding: 34px 50px 51px 30px;
+}
+		.db-test-h2{
+	font-size: 36px;
+}
 		.db-otziv-content-two{
+
 
 padding-bottom: 0px;
 }	
