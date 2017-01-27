@@ -12,13 +12,7 @@
 		<span class="dd-1">Время работы:</span><span class="dd-2"> ПН-ПТ с</span><span class="dd-3"> 10:00</span><br>
 		<span class="dd-2">до</span><span class="dd-3"> 19:00</span><span class="dd-2">, СБ.ВС с</span> <span class="dd-3 dd-3-2">11:00</span> <span class="dd-2">до</span> <span class="dd-3 dd-3-2"> 15:00</span>
 	</div>
-	<!-- Конец время работы -->
-
-	<!-- Заказать звонок -->
-	<!-- <div class="dd-mobile-zakazat-wrap">
-		<a href="#">Заказать звонок</a>
-	</div> -->
-	<!-- Конец заказать звонок -->
+	<!-- Конец время работы -->	
 
 	<!-- Название магазина -->
 	<div class="dd-mobile-title-wrap">
@@ -37,16 +31,7 @@
 	<!-- ШАПКА ДЛЯ ДЕКСТОПА!!! -->
 	<div class="dd-scroll-menu" id="js-nav-container">
 		<div class="my-container">
-			<div class="div-left">
-		<!-- 		<ul>
-					<li><a href="#">Что в комплекте</a></li>
-					<li><a href="#">Почему камни sheriff</a></li>
-					<li><a href="#">О пользе камней</a></li>
-					<li><a href="#">Отзывы</a></li>
-					<li><a href="#">Доставка и оплата</a></li>
-				</ul> -->
-			</div>
-			<div class="div-right">
+				<div class="div-right">
 				<span class="dd-span-phone">8 (567)<span> 876 87 98</span></span><br>
 			</div>
 			<div class="clearfix"></div>
