@@ -142,7 +142,7 @@ $('a[name=modal]').click(function(e) {
   $(id).css('left', winW/2-$(id).width()/2);
   $(id).fadeIn(500); 
 });
-$('.window .dd-close').click(function (e) {
+$('.window .df-cloself').click(function (e) {
   e.preventDefault();
   $('#mask, .window').hide();
   $('.window').hide();

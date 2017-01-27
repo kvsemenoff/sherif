@@ -54,8 +54,8 @@
 	
 		<div class="clearfix"></div>
 		<div class="dd-big-slogan">
-			<span class="dd-mobile-big-slogan">Ваш заказ принят!</span><br>
-			<span class="dd-mobile-big-slogan2">Менеджер свяжется с вами в ближайшее рабочее время</span>
+			<span class="df-toptext">Ваш заказ принят!</span><br>
+			<span class="df-middletxt">Менеджер свяжется с вами в ближайшее рабочее время</span>
 		</div>
 	</div>
 	<!-- Конец шапка для декстопа -->

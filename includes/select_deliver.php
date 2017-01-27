@@ -15,10 +15,10 @@
 					Стоимость доставки почтой – по тарифам Почты России. ВАЖНО: На почте есть определенные сроки хранения посылки. Убедительная просьба забирать ваши заказы вовремя!</p>
 					<span class="db-select-span">Оставьте заказ на нашем сайте, и вы получите подарочный набор камней Sheriff Premium любым удобным вам способом!</p>
 						<div class="db-a-container">
-							<a href="#" class="df-link db-select-a">Оформить заказ</a>
+							<a href="#log-in1" name="modal" class="df-link db-select-a">Оформить заказ</a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<p class="db-p-last">Остались вопросы? <a href="#">ЗАДАЙТЕ ИХ МЕНЕДЖЕРУ</a> или <a href="#">ЗАКАЖИТЕ ЗВОНОК</a></p>
+		<p class="db-p-last">Остались вопросы? <a href="#log-in3" name="modal">ЗАДАЙТЕ ИХ МЕНЕДЖЕРУ</a> или <a href="#log-in2" name="modal">ЗАКАЖИТЕ ЗВОНОК</a></p>

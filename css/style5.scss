@@ -816,7 +816,8 @@ div[data-val]:hover{
 .df-question{
 	textarea{
 		border: 2px solid #e4e4e4;		
-		width: 100%;		
+		max-width: 333px;
+		width: 100%;	
 		font-size: 18px;
 		color:#b9b9b9;
 		padding-left: 15px;				
@@ -1035,7 +1036,19 @@ div[data-val]:hover{
 	padding-left: 12px;
 	text-align: left;
 }
-
+.df-toptext{
+	font-size: 63px;
+	color:#573603;
+	line-height: 73px;
+	font-family: 'Exo2-Bold';
+	text-transform: uppercase;
+}
+.df-middletxt{
+	font-size: 23px;
+	line-height: 24px;
+	color:#000000;
+	font-family: 'Exo2-Regular';
+}
 ///////////////////////////////////
 
 .df-butn{
@@ -1268,24 +1281,27 @@ div[data-val]:hover{
 @media only screen and (min-width : 1248px) {
 	/*shadow left box*/
 	.df-must-txt-box_left_view:before, .df-must-txt-box_left_view:after{
-	  z-index: -1;
+	  z-index: 2;
 	  position: absolute;
 	  content: "";
-	  bottom: 5px;
+	  bottom: 20px;
 	  left: 15px;
 	  width: 50%;
 	  right: 0;
 	  top: 96%;
 	  max-width:555px;
 	  background: #fff;	  
-	  box-shadow: -20px -3px 40px 9px #777;
+	  box-shadow: -20px 10px 50px 9px #777;
 	  transform: rotate(-5deg);
 	}
 	.df-must-txt-box_left_view:after{
 	  transform: rotate(5deg);
 	  right: 10px;
 	  left: auto;
-	  box-shadow: 20px -3px 40px 9px #777;
+	  box-shadow: 14px 10px 50px 9px #777;
+	}
+	.owl-carousel{
+		z-index: 5;
 	}
 	/*spansibo*/
 	.df-thankstovar .df-tovar:last-child{

@@ -25,7 +25,7 @@
 			</div>
 			
 			<div class="col-md-12 db-center">
-				<a href="#" class="df-link db-link-avoid">заказать настоящие камни</a>
+				<a href="#log-in1" name="modal" class="df-link db-link-avoid">заказать настоящие камни</a>
 			</div>
 		</div>
 	</div>
