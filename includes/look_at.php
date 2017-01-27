@@ -1,5 +1,5 @@
 <section class="section section_padding">
-	<div class="df-container">
+	<div class="df-container" id="lookat">
 		<h2 class="df-cap1 df-lookcap">Посмотрите, что отличает камни <strong>Sheriff Premium</strong> от других камней для виски</h2>		
 		<div class="df-look df-look_view">
 			<div class="df-look__img df-look__img_view">

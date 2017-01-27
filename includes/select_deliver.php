@@ -1,6 +1,6 @@
 <section class="section section_padding section_select-db-view">
 	<div class="container">
-		<div class="row">
+		<div class="row" id="deliver">
 			<div class="col-md-12">
 				<h2 class="db-select-h2">Выберите удобный вам способ доставки и оплаты</h2>
 				<br>

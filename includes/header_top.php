@@ -9,11 +9,11 @@
 			</div>
 			<div class="clearfix"></div>
 			<ul class="dd-mobile-nav">
-				<li><a href="#">Что в комплекте</a></li>
-				<li><a href="#">Почему камни Sheriff</a></li>
-				<li><a href="#">О пользе камней</a></li>
-				<li><a href="#">Отзывы</a></li>
-				<li><a href="#">Доставка и оплата</a></li>
+				<li><a href="#complect">Что в комплекте</a></li>
+				<li><a href="#lookat">Почему камни Sheriff</a></li>
+				<li><a href="#why">О пользе камней</a></li>
+				<li><a href="#testimonials">Отзывы</a></li>
+				<li><a href="#deliver">Доставка и оплата</a></li>
 			</ul>
 		</div>
 	</div>
@@ -61,11 +61,11 @@
 		<div class="my-container">
 			<div class="div-left">
 				<ul>
-					<li class="li-no-padding"><a href="#">Что в комплекте</a></li>
-					<li><a href="#">Почему камни sheriff?</a></li>
-					<li><a href="#">О пользе камней</a></li>
-					<li><a href="#">Отзывы</a></li>
-					<li><a href="#">Доставка и оплата</a></li>
+					<li class="li-no-padding"><a href="#complect">Что в комплекте</a></li>
+					<li><a href="#lookat">Почему камни sheriff?</a></li>
+					<li><a href="#why">О пользе камней</a></li>
+					<li><a href="#testimonials">Отзывы</a></li>
+					<li><a href="#deliver">Доставка и оплата</a></li>
 				</ul>
 			</div>
 			<div class="div-right">
@@ -90,11 +90,11 @@
 		</div>
 		<div class="dd-big-menu">
 			<ul class="dd-relative">
-				<li><a class="pleft" href="#">Что в комплекте</a></li>
-				<li><a href="#">Почему камни sheriff</a></li>
-				<li><a href="#">О пользе камней</a></li>
-				<li><a href="#">Отзывы</a></li>
-				<li><a class="dd-after" href="#">Доставка и оплата</a></li>
+				<li><a class="pleft" href="#complect">Что в комплекте</a></li>
+				<li><a href="#lookat">Почему камни sheriff</a></li>
+				<li><a href="#why">О пользе камней</a></li>
+				<li><a href="#testimonials">Отзывы</a></li>
+				<li><a class="dd-after" href="#deliver">Доставка и оплата</a></li>
 			</ul>
 			<div class="dd-zakazat-big">
 				<a href="#log-in2" name="modal"><img src="img/zakaz2.png" alt=""></a>
