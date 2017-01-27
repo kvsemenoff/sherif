@@ -7,6 +7,14 @@
 	max-width:1188px;
 	margin: 0 auto;
 }
+#toTop {
+	padding:5px;
+	position:fixed;
+	bottom:10px; /* отступ кнопки от нижнего края страницы*/
+	right:20px;
+	cursor:pointer;
+	display:none;
+}
 /* Шапка mobile
 =====================================*/
 
@@ -298,7 +306,11 @@
 	margin: 0 auto;
 	padding: 19px 40px 0px 86px;
 	position:relative;
-
+	span{
+		font-size: 13px;
+		font-family: 'Exo2-Regular';
+		color:#fff;
+	}
 
 }
 .dd-stone{
@@ -465,6 +477,9 @@
 			padding-top: 12px !important;
 		}
 	}
+	.dd-button2{
+		display: none;
+	}
 	@media only screen and (min-width : 320px) {
 		.dd-mobile-title, .dd-mobile-title2{
 			font-size: 16px;
@@ -522,6 +537,7 @@
 }
 
 @media only screen and (min-width : 768px) {
+
 	.dd-shadow{
 		display: none;
 	}
@@ -529,7 +545,21 @@
 		margin: 0 auto;
 		width: 468px !important;
 	}
+
+}
+
+@media only screen and (min-width : 992px) {
+	.dd-actsia-wrap{
+		background: url(../img/bb.png) no-repeat top center;
+		background-size: cover;
+		width: 100%;
+		height: 329px;
+	}
 	// Таймер
+	.dd-ac-title{
+		padding-bottom: 34px;
+		padding-top: 38px;
+	}
 	.dd-box-txt{
 		padding-top: 1px;
 		margin-left: -35px;
@@ -576,6 +606,7 @@
 	}
 	.dd-float-timer{
 		float: right;
+		margin-top: -64px;
 	}
 	.dd-l{
 		display: none;
@@ -587,7 +618,6 @@
 	}
 	.dd-line-wrap{
 		// background: url(../img/line.png) no-repeat top center;
-		outline: 2px solid yellow;
 		background-size: cover;
 		width:360px;
 		margin: 29px auto 0px;
@@ -658,11 +688,22 @@
 			}
 		}
 	}
+	.dd-button{
+		display: none;
+	}
+	.dd-button2{
+		display: block;
+		text-align:center;
+		width: 396px;
+		margin-left: -16px;
+		a{
+			display: inline-block;
+			background: url(../img/kn.png) no-repeat top center;
+			margin-top: 11px;
 
+		}
+	}
 	// конец таймер
-}
-
-@media only screen and (min-width : 992px) {
 
 	.dd-kamni{
 		float: left;
@@ -760,6 +801,7 @@
 		ul{
 			li{
 				display: inline-block;
+				margin-left: 40px;
 				a{
 					display: inline-block;
 					text-transform: uppercase;
@@ -768,6 +810,9 @@
 					font-family: 'Exo2-SemiBold';
 					font-size: 13px;
 				}
+			}
+			.li-no-padding{
+				margin-left: 0;
 			}
 		}
 	}

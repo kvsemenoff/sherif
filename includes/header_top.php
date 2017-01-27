@@ -51,13 +51,18 @@
 	</div>
 	<!-- Конец слоган -->
 
+	<!-- Кнопка наверх -->
+	<div id="toTop" >
+		<img src="img/top.png" alt="">
+	</div>
+
 	<!-- ШАПКА ДЛЯ ДЕКСТОПА!!! -->
 	<div class="dd-scroll-menu" id="js-nav-container">
 		<div class="my-container">
 			<div class="div-left">
 				<ul>
-					<li><a href="#">Что в комплекте</a></li>
-					<li><a href="#">Почему камни sheriff</a></li>
+					<li class="li-no-padding"><a href="#">Что в комплекте</a></li>
+					<li><a href="#">Почему камни sheriff?</a></li>
 					<li><a href="#">О пользе камней</a></li>
 					<li><a href="#">Отзывы</a></li>
 					<li><a href="#">Доставка и оплата</a></li>
@@ -133,7 +138,7 @@
 <section class="dd-actsia-wrap">
 	<div class="my-container2">
 		<div class="dd-ac-title">
-			<span>Акция</span>
+			<span>Акция!</span>
 		</div>
 		<div class="dd-strelka-wrap">
 			<span>Закажите камни для виски до <span class="dd-red">20 января</span> и получите 2 замечательных <span class="dd-red">ПОДАРКА,</span> стоимостью <span class="dd-red">570 рублей!</span></span>
@@ -234,8 +239,12 @@
 					</div>
 				</div>
 				<div class="dd-button">
-					<!-- <a href="#" class="df-link df-must-link df-poplink dd-my">Заказать по акции</a> -->
-					<input type="submit" name="submit" value="ОТПРАВИТЬ" class="df-link df-mustlink df-poplink">
+					<a href="#" class="df-link df-must-link df-poplink dd-my">Заказать по акции</a>
+					<!-- <input type="submit" name="submit" value="ЗАКАЗАТЬ ПО АКЦИИ" class="df-link df-mustlink df-poplink"> -->
+
+				</div>
+				<div class="dd-button2">
+					<a href="#" class="df-link df-poplink button-action">Заказать по акции</a>
 				</div>
 
 			</div>
