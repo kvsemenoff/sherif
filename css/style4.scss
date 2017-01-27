@@ -298,16 +298,19 @@
 	margin: 0 auto;
 	padding: 19px 40px 0px 86px;
 	position:relative;
-	span{
-		color:#fff;
-		font-family: 'Exo2-Regular';
-		font-size: 14px;
-	}
+
+
 }
 .dd-stone{
 	position:absolute;
 	left:-2px;
 	top:5px;
+}
+.dd-stone2{
+	display:none;
+	position:absolute;
+	left:-15px;
+	top:2px;
 }
 .dd-red{
 	color:#DD0106 !important;
@@ -330,6 +333,24 @@
 		// text-align: center;
 	}
 }
+.dd-bonus2{
+	display:table;
+	margin: 0 auto;
+	width:360px;
+	.dd-box{
+		display:table-cell; 
+		// vertical-align: middle;
+	}
+	.dd-box2{
+		vertical-align: top;
+		padding-top: 47px;
+		padding-right: 35px;
+		// text-align: center;
+	}
+}
+.dd-bonus2{
+	display:none;
+}
 .dd-box-txt{
 	text-align:center;
 	padding-top: 9px;
@@ -344,7 +365,7 @@
 .dd-line-wrap{
 	// background: url(../img/line.png) no-repeat top center;
 	background-size: cover;
-	max-width:308px;
+	width:308px;
 	margin: 29px auto 0px;
 	height: 32px;
 	position:relative;
@@ -359,6 +380,9 @@
 	.dd-l{
 		position:absolute;
 		top:0;
+	}
+	.dd-2{
+		display: none;
 	}
 	.dd-number{
 		background: url(../img/w2.png) no-repeat top center;
@@ -434,12 +458,12 @@
 		}
 	}
 
-.dd-button{
-	text-align:center;
-	.dd-my{
-		padding-top: 12px !important;
+	.dd-button{
+		text-align:center;
+		.dd-my{
+			padding-top: 12px !important;
+		}
 	}
-}
 	@media only screen and (min-width : 320px) {
 		.dd-mobile-title, .dd-mobile-title2{
 			font-size: 16px;
@@ -505,14 +529,69 @@
 		width: 468px !important;
 	}
 	// Таймер
-	.dd-strelka-wrap, .dd-bonus{
+	.dd-box-txt{
+		padding-top: 1px;
+		margin-left: -35px;
+		padding: 1px 12px;
+		span{
+			font-size: 14px;
+		}
+	}
+	.dd-box-txt2{
+		padding: 1px 12px;
+	}
+	.dd-bonus2{
+		display: block;
+	}
+	.dd-strelka-wrap, .dd-bonus2{
 		float: left;
+	}
+	.dd-bonus{
+		display: none;
+	}
+	.dd-strelka-wrap{
+		background: url(../img/rb.png) no-repeat top center;
+		width: 380px;
+		height: 140px;
+		padding:23px 40px 0 107px;
+		span{
+			font-size: 17px;
+			font-family: 'Exo2-Regular';
+			color:#fff;
+		}
+	}
+	.dd-stone{
+		display: none;
+	}
+	.dd-stone2{
+		display: block;
 	}
 	.dd-bonus{
 		margin-top: 0;
 	}
+	.dd-bonus2{
+		margin-top: 5px;
+		margin-left: 34px;
+	}
 	.dd-float-timer{
 		float: right;
+	}
+	.dd-l{
+		display: none;
+	}
+	.dd-l2{
+		position:absolute;
+		top:0;
+		display: block;
+	}
+	.dd-line-wrap{
+		// background: url(../img/line.png) no-repeat top center;
+		outline: 2px solid yellow;
+		background-size: cover;
+		width:360px;
+		margin: 29px auto 0px;
+		height: 32px;
+		position:relative;
 	}
 	// конец таймер
 }
