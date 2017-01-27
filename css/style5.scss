@@ -407,7 +407,7 @@
 		margin-bottom: 11px;		
 	}
 }
-// .df-stopGive-link{
+
 .df-link{	
 	margin-top: 20px;
 	font-size: 25px;
@@ -508,6 +508,7 @@
 	position: absolute;
 	left:-57px;
 	top:0px;
+	display: none;
 }
 .df-marg2{
 	margin-top: 30px;
@@ -995,6 +996,77 @@ div[data-val]:hover{
 	}	
 }
 
+
+
+/*==================spansibo===========*/
+.df-thankstovar{	
+	text-align: center;
+	h2{
+		font-size: 34px;
+		line-height: 74px;
+		color:#000000;
+		text-transform: uppercase;
+		margin: 10px 0;		
+	}
+}
+.df-tovar{
+	max-width: 570px;
+	width: 100%;
+	display: inline-block;
+	padding: 15px 10px;
+	border:2px solid #dcdcdc;
+	text-align: center;
+	margin-top: 15px;
+}
+.df-tovar__img{
+	width: 160px;
+	height: 160px;
+	display: inline-block;
+	border:2px solid #c8944b;		
+}
+.df-tovar__txt{
+	font-family: 'Exo2-Regular';
+	font-size: 14px;
+	line-height: 20px;
+	color:#000000;
+	max-width: 370px;
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 12px;
+	text-align: left;
+}
+
+
+
+.df-butoon{
+	width: 340px;
+	min-height: 65px;
+
+	
+	position: relative;
+	margin: 100px 0;
+	text-align: center;
+	border: 3px solid rgba(#fff, 0.2);
+	border-image: url("../img/dfbgfon.png") 2 round round;
+	border-radius: 10px;
+	overflow: hidden;
+	
+}
+.df-butlink{
+	position: absolute;
+	z-index: 100;
+	left:0;
+	top:0;
+}
+.df-imgbutoon{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	display: inline-block;
+	z-index: 1;
+	left:0;
+	top:0;
+}
 @media only screen and (min-width : 320px) {
 	
 }
@@ -1087,12 +1159,7 @@ div[data-val]:hover{
 	}
 	.df-Rbox{		
 		margin-left: 30px;
-	}
-	// .df-call__R{		
-	// 	input{			
-	// 		margin-left: 17px;			
-	// 	}
-	// }
+	}	
 	.az-select{		
 		margin: 0 0 3px 19px;
 	}
@@ -1102,7 +1169,7 @@ div[data-val]:hover{
 	.df-viski-R{		
 		margin-left: 10px;			
 	}
-
+	
 }
 
 @media only screen and (min-width : 992px) {
@@ -1158,6 +1225,9 @@ div[data-val]:hover{
 	.df-look-R{		
 		margin-top: 25px;
 	}
+	.df-left-shadow{		
+		display: block;
+	}
 
 }
 
@@ -1173,8 +1243,7 @@ div[data-val]:hover{
 	  right: 0;
 	  top: 96%;
 	  max-width:555px;
-	  background: #fff;
-	  // box-shadow: 0 15px 10px #777;
+	  background: #fff;	  
 	  box-shadow: -20px -3px 40px 9px #777;
 	  transform: rotate(-5deg);
 	}
@@ -1183,5 +1252,10 @@ div[data-val]:hover{
 	  right: 10px;
 	  left: auto;
 	  box-shadow: 20px -3px 40px 9px #777;
+	}
+	/*spansibo*/
+	.df-thankstovar .df-tovar:last-child{
+		margin-left: 30px;
+		margin-top: 0px;
 	}
 }
