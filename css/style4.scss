@@ -10,10 +10,11 @@
 #toTop {
 	padding:5px;
 	position:fixed;
-	bottom:10px; /* отступ кнопки от нижнего края страницы*/
+	top:250px; /* отступ кнопки от нижнего края страницы*/
 	right:20px;
 	cursor:pointer;
 	display:none;
+	z-index:9999;
 }
 /* Шапка mobile
 =====================================*/
@@ -87,10 +88,6 @@
 }
 .dd-mobile-logo{
 	float:left;
-	// margin-top: -20px;
-	// position:absolute;
-	// top:-10px;
-	// left:0;
 	z-index:1;
 }
 // Фиксируем меню при скроле
@@ -480,32 +477,76 @@
 	.dd-button2{
 		display: none;
 	}
-	@media only screen and (min-width : 320px) {
-		.dd-mobile-title, .dd-mobile-title2{
-			font-size: 16px;
+	.dd-l2{
+		display: none;
+	}
+
+/* Footer
+===========================================*/
+.dd-footer{
+	background: url(../img/mfbg.jpg) no-repeat top center;
+	background-size: cover;
+	width: 100%;
+	padding-top: 4px;
+}
+.dd-time-of-work-f{
+	padding-left: 20px;
+	padding-top: 12px;
+	.dd-span-phone{
+		background: url(../img/tb.png) no-repeat left center;
+	}
+}
+.dd-footer-logo-m, .dd-time-of-work-f{
+	float:left;
+}
+.dd-txt-f{
+	padding-top: 13px;
+}
+.dd-mobile-title-wrap2{
+	margin-top: 12px !important;
+}
+// Конец футер ======================
+
+
+
+@media only screen and (min-width : 320px) {
+
+	// Footer
+	.dd-footer-logo-m{
+		float:left;
+	}
+	.dd-time-of-work-f{
+		float: unset;
+		text-align: center;
+		padding-right: 100px;
+		outline: 2px solid blue;
+	}
+	// end footer
+	.dd-mobile-title, .dd-mobile-title2{
+		font-size: 16px;
+	}
+	.dd-mobile-zakazat-wrap{
+		text-align: center;
+		a{
+			background: url(../img/zakaz.png) no-repeat right bottom;
+			padding-right: 55px;
+			margin-left: 22px;
 		}
-		.dd-mobile-zakazat-wrap{
-			text-align: center;
-			a{
-				background: url(../img/zakaz.png) no-repeat right bottom;
-				padding-right: 55px;
-				margin-left: 22px;
-			}
-		}
-		.dd-mobile-title-wrap{
-			margin-top: 38px;
-			padding-bottom: 29px;
-			text-align:center;
-		}
-		.dd-mobile-slogan{
-			padding-right: 10px;
-			padding-left: 10px;
-		}
-		.dd-mobile-big-slogan{
-			font-size: 32px;
-			padding-bottom: 16px;
-		}
-		.section-header-mobile-view{
+	}
+	.dd-mobile-title-wrap{
+		margin-top: 38px;
+		padding-bottom: 29px;
+		text-align:center;
+	}
+	.dd-mobile-slogan{
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+	.dd-mobile-big-slogan{
+		font-size: 32px;
+		padding-bottom: 16px;
+	}
+	.section-header-mobile-view{
 		// background: url(../img/bigger2.jpg) no-repeat top center;
 		height: 562px;
 	}
