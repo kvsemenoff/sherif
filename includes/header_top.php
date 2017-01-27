@@ -152,17 +152,19 @@
 
 		<!-- Бонус для мобильного -->
 		<div class="dd-bonus">
-			<div class="dd-box">
-				<img src="img/b1.png" alt="">
-				<div class="dd-box-txt">
-					<span>Самая полная в мире энциклопедия</span> <span>(960 страниц)</span>
+
+				<div class="dd-box">
+					<a href="#log-in6" name="modal"><img src="img/b1.png" alt=""></a>
+					<div class="dd-box-txt">
+						<span>Самая полная в мире энциклопедия</span> <span>(960 страниц)</span>
+					</div>
 				</div>
-			</div>
+		
 			<div class="dd-box dd-box2">
 				<img src="img/pl.png" alt="">
 			</div>
 			<div class="dd-box">
-				<img src="img/b2.png" alt="">
+				<a href="#log-in7" name="modal"><img src="img/b2.png" alt=""></a>
 				<div class="dd-box-txt">
 					<span>Спортивные наушники (с mp3-плеером и радио)</span>
 				</div>
@@ -172,7 +174,7 @@
 		<!-- Бонус для декстопа -->
 		<div class="dd-bonus2">
 			<div class="dd-box">
-				<img src="img/b4.png" alt="">
+				<a href="#log-in6" name="modal"><img src="img/b4.png" alt=""></a>
 				<div class="dd-box-txt">
 					<span>Самая полная в мире энциклопедия</span> <span>(960 страниц)</span>
 				</div>
@@ -181,7 +183,7 @@
 				<img src="img/pl2.png" alt="">
 			</div>
 			<div class="dd-box">
-				<img src="img/b5.png" alt="">
+				<a href="#log-in7" name="modal"><img src="img/b5.png" alt=""></a>
 				<div class="dd-box-txt dd-box-txt2">
 					<span>Спортивные наушники (с mp3-плеером и радио)</span>
 				</div>
@@ -209,6 +211,9 @@
 					<div class="dd-times">
 						<div class="dd-ellipse">
 							<img src="img/ellipse.png" alt="">
+						</div>
+						<div class="dd-ellipse2">
+							<img src="img/krd.png" alt="">
 						</div>
 						<div class="dd-div no-margin">
 							<span >04</span>

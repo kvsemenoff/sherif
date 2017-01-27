@@ -15,6 +15,11 @@
 	cursor:pointer;
 	display:none;
 	z-index:9999;
+	opacity:0.5;
+	transition:0.7s;
+}
+#toTop:hover {
+	opacity:1;
 }
 /* Шапка mobile
 =====================================*/
@@ -560,7 +565,9 @@
 	display:none;
 }
 // Конец футер ======================
-
+.dd-ellipse2{
+	display: none;
+}
 
 
 @media only screen and (min-width : 320px) {
@@ -748,6 +755,13 @@
 					position:absolute;
 					top:19px;
 					left:72px;
+					display: none;
+				}
+				.dd-ellipse2{
+					display: block;
+					position:absolute;
+					left: 86px;
+					top: 23px;
 				}
 				.dd-div{
 					background:url(../img/t2.png) no-repeat center;
@@ -839,30 +853,30 @@
 
 @media only screen and (min-width : 1248px) {
 		// footer
-	.dd-footer{
-		position:relative;
-		background: url(../img/bf2.jpg) no-repeat top center;
-		background-size: cover;
-		width: 100%;
-		padding-top: 7px;
-		text-align:center;
-		padding-bottom: 0px;
-	}
-	.dd-footer-logo-m{
-		display: none;
-	}
-	.dd-footer-logo-m2{
-		display: block;
-		float: left;
-		margin-left: -101px;
-	}
-	.dd-time-of-work-f{
-		text-align: right;
-		float: right;
-		width: 396px;
-		padding-right: 21px;
-	}
-	.dd-g{
+		.dd-footer{
+			position:relative;
+			background: url(../img/bf2.jpg) no-repeat top center;
+			background-size: cover;
+			width: 100%;
+			padding-top: 7px;
+			text-align:center;
+			padding-bottom: 0px;
+		}
+		.dd-footer-logo-m{
+			display: none;
+		}
+		.dd-footer-logo-m2{
+			display: block;
+			float: left;
+			margin-left: -101px;
+		}
+		.dd-time-of-work-f{
+			text-align: right;
+			float: right;
+			width: 396px;
+			padding-right: 21px;
+		}
+		.dd-g{
 		// display: none;
 		padding-top: 15px;
 		padding-left: 15px;
