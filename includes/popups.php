@@ -1,3 +1,4 @@
+<div id="mask"></div>
 <div class="df-messege window" id="log-in">
 	<h2>Сообщение успешно отправленно!</h2>
 	<span>Менеджер свяжется с вами в ближайшее рабочее время.</span>
@@ -30,8 +31,8 @@
 			<span class="df-call-span2">Или заполните форму заказа</span>
 
 			<input type="text" placeholder="Имя и фамилия...">
-			<input type="text" class="phone" placeholder="Телефон...">
-			<input type="text" placeholder="E-mail...">
+			<input type="text" class="phone" name="phone" placeholder="Телефон...">
+			<input type="email" placeholder="E-mail...">
 
 			<div  class="az-select az-margin-bottom10">
 					<select name="" id="">
@@ -43,8 +44,8 @@
 						
 					</select>
 				</div>
-			<input type="text" placeholder="Адрес доставки...">
-			<a href="#" class="df-link df-mustlink df-poplink">оформить заказ</a>
+			<input type="text" placeholder="Адрес доставки...">			
+			<input type="submit" name="submit" value="оформить заказ" class="df-link df-mustlink df-poplink">
 		</form>
 	</div>
 </div>
@@ -58,10 +59,10 @@
 		</div>
 		<div class="df-call__R df-inputscont">
 			<input type="text" placeholder="Имя и фамилия...">
-			<input type="text" class="phone" placeholder="Телефон...">
-			<input type="text" placeholder="E-mail...">
-		</div>
-		<a href="#" class="df-link df-mustlink df-poplink">Заказать звонок</a>
+			<input type="text" class="phone" name="phone" placeholder="Телефон...">
+			<input type="email" placeholder="E-mail...">
+		</div>		
+		<input type="submit" name="submit" value="Заказать звонок" class="df-link df-mustlink df-poplink">
 	</form>
 </div>
 <div class="df-contact df-question window" id="log-in3">
@@ -74,11 +75,12 @@
 		<div class="df-call__R df-inputscont">
 
 			<input type="text" placeholder="Имя и фамилия...">
-			<input type="text" class="phone" placeholder="Телефон...">
-			<input type="text" placeholder="E-mail...">
+			<input type="text" class="phone" name="phone" placeholder="Телефон...">
+			<input type="email" placeholder="E-mail...">
 			<textarea name="" id="" cols="53" rows="4" placeholder="Вопрос..."></textarea>
 		</div>
-		<a href="#" class="df-link df-mustlink df-poplink">Заказать вопрос</a>
+		
+		<input type="submit" name="submit" value="Заказать вопрос" class="df-link df-mustlink df-poplink">
 	</form>
 </div>
 
@@ -92,9 +94,9 @@
 	</div>
 		<form class="form1" action="#" method="post">
 			<div class="df-inpoz">
-				<input type="text" placeholder="Имя и фамилия...">
-				<input type="text" class="phone" placeholder="Телефон...">
-				<input type="text" placeholder="E-mail...">
+				<input type="text" placeholder="Имя и фамилия..." required>
+				<input type="text" class="phone" name="phone" placeholder="Телефон...">
+				<input type="email" placeholder="E-mail...">
 				<input type="text" placeholder="Адрес страницы Вконтакте...">
 			</div>
 			<div class="df-Rbox df-question">
@@ -103,8 +105,8 @@
 				<input type="text" class="df-littleinp" placeholder="1">
 				<span class="df-otziv-span"><img src="img/df-text.jpg" alt=""></span>
 				<input type="text" class="df-littleinp2" placeholder="Введите код...">
-			</div>
-			<a href="#" class="df-link df-mustlink df-poplink">ОТПРАВИТЬ</a>
+			</div>			
+			<input type="submit" name="submit" value="ОТПРАВИТЬ" class="df-link df-mustlink df-poplink">
 		</form>
 </div>
 
