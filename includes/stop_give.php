@@ -22,8 +22,7 @@
 				<div class="df-stop-give__2blocks df-stop-give__2blocks_view">
 					<h3>Хотите увидеть бурю радостных эмоций, даже если ваш мужчина – суровый дальнобойщик?</h3>
 					<div class="df-stop-give__L df-stop-give__L_view">
-						<div id="demo">
-							<!-- <img src="img/df-bg2.jpg" alt="" class="img-responsive"> -->
+						<div id="demo">							
 							  <img id='image' class="photo3d-preview-image {maxZoom:150, frames:60, yframes:1, useSeparateFrames:true, startImmediately:false, autoPlay:true, horizontalRangeLeft:0, horizontalRangeRight:0, verticalRangeBottom:0, verticalRangeTop:0, firstFrameX:0, firstFrameY:0, productCode:''}" src='img3d_001075.jpg' border='0' width='100%' height='100%' />
 						</div>
 						<img src="img/df-shadow2.png" alt="" class="img-responsive df-shadow2">
@@ -38,7 +37,7 @@
 						<span>фирменный магнит на холодильник</span>
 						<span>фирменный подарочный пакет</span>
 						<span>специальная плотная коробка длябезопасной транспортировки</span>
-						<a href="#" class="df-link">Заказать</a>						
+						<a href="#log-in1" name="modal" class="df-link">Заказать</a>						
 						<img src="img/df-shadow3.png" alt="" class="img-responsive df-shadow-B">
 
 						<div class="df-left-shadow">
