@@ -8,6 +8,7 @@
 	<?php require_once('includes/not_end.php'); ?>
 	<?php require_once('includes/why.php'); ?>
 	<?php require_once('includes/stones_for.php'); ?>
+	<?php require_once('includes/testimonials.php'); ?>
 	<?php require_once('includes/look_at.php'); ?>
 	<?php require_once('includes/select_deliver.php'); ?>
 	<?php require_once('includes/popups.php'); ?>
