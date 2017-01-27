@@ -1,7 +1,7 @@
 
 
 $(document).ready(function(){
-
+  
   $('.az-select').each(function(){
     var select = $(this);    
     var option = select.find('select option');
