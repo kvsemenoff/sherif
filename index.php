@@ -10,7 +10,7 @@
 	<?php require_once('includes/stones_for.php'); ?>
 	<?php require_once('includes/look_at.php'); ?>
 	<?php require_once('includes/select_deliver.php'); ?>
-
+	<?php require_once('includes/popups.php'); ?>
 	<?php require_once('includes/footer.php'); ?>
 
 	
