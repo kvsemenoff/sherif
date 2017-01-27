@@ -10,7 +10,7 @@
 					Камни для виски Sheriff Premium - <br>
 					подарок с <span class="db-stone-two">мужским характером!</span>
 				</div>
-				<a href="#" class="df-link db-stone-link">заказать идеальный подарок</a>
+				<a href="#log-in1" name="modal" class="df-link db-stone-link">заказать идеальный подарок</a>
 			</div>
 		</div>
 	</div>

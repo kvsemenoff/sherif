@@ -26,22 +26,21 @@
 			<span class="df-call-span">
 				Оставьте свой телефон, менеджер перезвонит <br> и решит все вопросы по оформлению заказа
 			</span>
-			<input type="text" placeholder="Телефон...">
-			<a href="#" class="df-linkpopup">Позвоните мне</a>
+			<input type="text" class="phone" name="phone" placeholder="Телефон...">
+			<input type="submit" name="submit" class="df-linkpopup" value="Позвоните мне">
 			<span class="df-call-span2">Или заполните форму заказа</span>
 
-			<input type="text" placeholder="Имя и фамилия...">
+			<input type="text" placeholder="Имя и фамилия..." required>
 			<input type="text" class="phone" name="phone" placeholder="Телефон...">
 			<input type="email" placeholder="E-mail...">
 
 			<div  class="az-select az-margin-bottom10">
 					<select name="" id="">
 						<option value="1">Способ доставки</option>
-						<option value="2">1</option>
-						<option value="3">2</option>
-						<option value="4">3</option>
-						<option value="5">4</option>
-						
+						<option value="2">Почтой</option>
+						<option value="3">Курьерская доставка</option>
+						<option value="4">Самовывоз</option>
+						<option value="5">Транспортной компанией</option>						
 					</select>
 				</div>
 			<input type="text" placeholder="Адрес доставки...">			
@@ -58,7 +57,7 @@
 			<div class="df-cloself"><img src="img/df-close.png" alt=""></div>
 		</div>
 		<div class="df-call__R df-inputscont">
-			<input type="text" placeholder="Имя и фамилия...">
+			<input type="text" placeholder="Имя и фамилия..." required>
 			<input type="text" class="phone" name="phone" placeholder="Телефон...">
 			<input type="email" placeholder="E-mail...">
 		</div>		
@@ -74,12 +73,11 @@
 		</div>
 		<div class="df-call__R df-inputscont">
 
-			<input type="text" placeholder="Имя и фамилия...">
+			<input type="text" placeholder="Имя и фамилия..." required>
 			<input type="text" class="phone" name="phone" placeholder="Телефон...">
 			<input type="email" placeholder="E-mail...">
-			<textarea name="" id="" cols="53" rows="4" placeholder="Вопрос..."></textarea>
-		</div>
-		
+			<textarea name="" id="" rows="4" placeholder="Вопрос..."></textarea>
+		</div>		
 		<input type="submit" name="submit" value="Заказать вопрос" class="df-link df-mustlink df-poplink">
 	</form>
 </div>
