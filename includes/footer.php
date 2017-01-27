@@ -12,7 +12,7 @@
 		</div> -->
 
 		<div class="dd-time-of-work-f">
-			<span class="dd-span-phone">8 (567)<span> 876 87 98</span></span><br>
+			<span class="dd-span-phone">8 (499)<span> 643 40 79</span></span><br>
 			<div class="dd-txt-f">
 				<span class="dd-1">Время работы:
 					<span class="dd-2">до</span><span class="dd-3"> 19:00,</span><br><span class="dd-2"> СБ.ВС с</span> <span class="dd-3 dd-3-2">11:00</span> <span class="dd-2">до</span> <span class="dd-3 dd-3-2"> 15:00

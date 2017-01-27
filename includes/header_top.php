@@ -5,7 +5,7 @@
 				<img src="img/ico.png" alt="">
 			</div>
 			<div class="dd-tel-wrap">
-				<span><span>8 (567)</span> 876 87 98</span>
+				<span><span>8 (499)</span> 643 40 79</span>
 			</div>
 			<div class="clearfix"></div>
 			<ul class="dd-mobile-nav">
@@ -21,7 +21,7 @@
 		<img src="img/logo-mob.png" alt="">
 	</div>
 	<div class="dd-mobile-tel2">
-		<span class="dd-span-phone">8 (567)<span> 876 87 98</span></span>
+		<span class="dd-span-phone">8 (499)<span> 643 40 79</span></span>
 	</div>
 
 	<!-- Время работы -->
@@ -69,7 +69,7 @@
 				</ul>
 			</div>
 			<div class="div-right">
-				<span class="dd-span-phone">8 (567)<span> 876 87 98</span></span><br>
+				<span class="dd-span-phone">8 (499)<span> 643 40 79</span></span><br>
 			</div>
 			<div class="clearfix"></div>
 		</div>
@@ -83,7 +83,7 @@
 			<span class="dd-mobile-title">c<span> доставкой по россии</span></span>
 		</div>
 		<div class="dd-right-block">
-			<span class="dd-span-phone">8 (567)<span> 876 87 98</span></span><br>
+			<span class="dd-span-phone">8 (499)<span> 643 40 79</span></span><br>
 			<div class="dd-pb"></div>
 			<span class="dd-1">Время работы:</span><span class="dd-2"> ПН-ПТ с</span><span class="dd-3"> 10:00</span>
 			<span class="dd-2">до</span><span class="dd-3"> 19:00</span><span class="dd-2">, СБ.ВС с</span> <span class="dd-3 dd-3-2">11:00</span> <span class="dd-2">до</span> <span class="dd-3 dd-3-2"> 15:00</span>
