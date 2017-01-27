@@ -488,22 +488,76 @@
 	background-size: cover;
 	width: 100%;
 	padding-top: 4px;
+	text-align:center;
+	padding-bottom: 13px;
 }
 .dd-time-of-work-f{
-	padding-left: 20px;
-	padding-top: 12px;
+	text-align:center;
+	// padding-left: 20px;
+	padding: 12px 0px;
 	.dd-span-phone{
 		background: url(../img/tb.png) no-repeat left center;
 	}
 }
 .dd-footer-logo-m, .dd-time-of-work-f{
-	float:left;
+	// float:left;
 }
 .dd-txt-f{
 	padding-top: 13px;
 }
 .dd-mobile-title-wrap2{
 	margin-top: 12px !important;
+}
+
+// Соц сети
+.dd-icons{
+	li{
+		display: inline-block;
+	}
+}
+.box-ico{
+	border:1px solid black;
+	border-radius:10em;
+	width: 32px;
+	height: 32px;
+	text-align:center;
+	vertical-align:middle;
+	i{
+		color:black;
+	}
+}
+.fa{
+	padding-top: 7px;
+}
+.sf, .dd-big-txt-f{
+	color:black;
+	font-family: 'Exo2-Regular';
+	font-size:12px;
+}
+.sf2{
+	text-decoration:underline;
+	color:#004773;
+}
+.dd-soc-slogan{
+	padding-bottom: 10px;
+}
+.dd-social-wrap{
+	text-align:center;
+}
+.dd-g{
+	text-align:center;
+}
+.dd-footer-logo-m2{
+	display:none;
+}
+.dd-name-f{
+	display:none;
+}
+.clear-block{
+	display:none;
+}
+.dd-txt-f2{
+	display:none;
 }
 // Конец футер ======================
 
@@ -516,10 +570,8 @@
 		float:left;
 	}
 	.dd-time-of-work-f{
-		float: unset;
-		text-align: center;
-		padding-right: 100px;
-		outline: 2px solid blue;
+		text-align: left;
+		padding-left: 15px;
 	}
 	// end footer
 	.dd-mobile-title, .dd-mobile-title2{
@@ -553,6 +605,10 @@
 }
 
 @media only screen and (min-width : 480px) {
+	.dd-time-of-work-f{
+		width: 210px;
+		margin: 0 auto;
+	}
 	.dd-shadow{
 		height: 87px;
 	}
@@ -586,6 +642,62 @@
 		margin: 0 auto;
 		width: 468px !important;
 	}
+	// footer
+	.dd-footer{
+		position:relative;
+		background: url(../img/bf2.jpg) no-repeat top center;
+		background-size: cover;
+		width: 100%;
+		padding-top: 7px;
+		text-align:center;
+		padding-bottom: 0px;
+	}
+	.dd-footer-logo-m{
+		display: none;
+	}
+	.dd-footer-logo-m2{
+		display: block;
+		float: left;
+		margin-left: -101px;
+	}
+	.dd-time-of-work-f{
+		float: right;
+	}
+	.dd-g{
+		// display: none;
+		padding-top: 15px;
+		padding-left: 15px;
+		text-align: left;
+		float: left;
+		span{
+			font-size:12px;
+		}
+	}
+	// .dd-name-f{
+	// 	text-align: left;
+	// 	display: block;
+	// 	float: left;
+	// }
+	.clear-none{
+		display: none;
+	}
+	.dd-txt-f{
+		display: none;
+	}
+	.dd-social-wrap{
+		float: left;
+		padding-left: 75px;
+		padding-top: 4px;
+	}
+	.clear-block{
+		display: block;
+	}
+	.dd-big-txt-f{
+		float: right;
+		width: 907px;
+		text-align: left;
+	}
+	// end footer
 
 }
 
@@ -797,6 +909,7 @@
 	.dd-mobile-logo, .dd-mobile-tel, .dd-mobile-zakazat-wrap, .dd-mobile-date, .dd-mobile-title-wrap, .dd-mobile-slogan{
 		display: none;
 	}
+
 	.my-container{
 		display: block;
 		position:relative;
