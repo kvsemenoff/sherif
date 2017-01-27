@@ -19,7 +19,7 @@
 				</span>
 			</div>
 			<div class="dd-txt-f2">
-				<span class="dd-1">Время работы:</span><span class="dd-2"> ПН-ПТ с</span><span class="dd-3"> 10:00</span><br>
+				<span class="dd-1">Время работы:</span><span class="dd-2"> ПН-ПТ с</span><span class="dd-3"> 10:00</span>
 				<span class="dd-2">до</span><span class="dd-3"> 19:00</span><span class="dd-2">, СБ.ВС с</span> <span class="dd-3 dd-3-2">11:00</span> <span class="dd-2">до</span> <span class="dd-3 dd-3-2"> 15:00</span>
 			</div>
 		</div>

@@ -642,66 +642,12 @@
 		margin: 0 auto;
 		width: 468px !important;
 	}
-	// footer
-	.dd-footer{
-		position:relative;
-		background: url(../img/bf2.jpg) no-repeat top center;
-		background-size: cover;
-		width: 100%;
-		padding-top: 7px;
-		text-align:center;
-		padding-bottom: 0px;
-	}
-	.dd-footer-logo-m{
-		display: none;
-	}
-	.dd-footer-logo-m2{
-		display: block;
-		float: left;
-		margin-left: -101px;
-	}
-	.dd-time-of-work-f{
-		float: right;
-	}
-	.dd-g{
-		// display: none;
-		padding-top: 15px;
-		padding-left: 15px;
-		text-align: left;
-		float: left;
-		span{
-			font-size:12px;
-		}
-	}
-	// .dd-name-f{
-	// 	text-align: left;
-	// 	display: block;
-	// 	float: left;
-	// }
-	.clear-none{
-		display: none;
-	}
-	.dd-txt-f{
-		display: none;
-	}
-	.dd-social-wrap{
-		float: left;
-		padding-left: 75px;
-		padding-top: 4px;
-	}
-	.clear-block{
-		display: block;
-	}
-	.dd-big-txt-f{
-		float: right;
-		width: 907px;
-		text-align: left;
-	}
-	// end footer
+
 
 }
 
 @media only screen and (min-width : 992px) {
+
 	.dd-actsia-wrap{
 		background: url(../img/bb.png) no-repeat top center;
 		background-size: cover;
@@ -892,6 +838,71 @@
 }
 
 @media only screen and (min-width : 1248px) {
+		// footer
+	.dd-footer{
+		position:relative;
+		background: url(../img/bf2.jpg) no-repeat top center;
+		background-size: cover;
+		width: 100%;
+		padding-top: 7px;
+		text-align:center;
+		padding-bottom: 0px;
+	}
+	.dd-footer-logo-m{
+		display: none;
+	}
+	.dd-footer-logo-m2{
+		display: block;
+		float: left;
+		margin-left: -101px;
+	}
+	.dd-time-of-work-f{
+		text-align: right;
+		float: right;
+		width: 396px;
+		padding-right: 21px;
+	}
+	.dd-g{
+		// display: none;
+		padding-top: 15px;
+		padding-left: 15px;
+		text-align: left;
+		float: left;
+		span{
+			font-size:12px;
+		}
+	}
+	// .dd-name-f{
+	// 	text-align: left;
+	// 	display: block;
+	// 	float: left;
+	// }
+	.clear-none{
+		display: none;
+	}
+	.dd-txt-f{
+		display: none;
+	}
+	.dd-txt-f2{
+		display: block;
+		text-align: left;
+	}
+	.dd-social-wrap{
+		float: left;
+		padding-left: 75px;
+		padding-top: 4px;
+	}
+	.clear-block{
+		display: block;
+	}
+	.dd-big-txt-f{
+		float: left;
+		width: 990px;
+		text-align: left;
+		padding-left: 17px;
+		padding-top: 29px;
+	}
+	// end footer
 	.dd-header-list{
 		margin-left: 72px;
 		position:relative;
