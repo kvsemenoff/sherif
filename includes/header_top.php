@@ -97,7 +97,7 @@
 				<li><a class="dd-after" href="#">Доставка и оплата</a></li>
 			</ul>
 			<div class="dd-zakazat-big">
-				<a href="#"><img src="img/zakaz2.png" alt=""></a>
+				<a href="#log-in2" name="modal"><img src="img/zakaz2.png" alt=""></a>
 			</div>
 			<div class="clearfix"></div>
 		</div>
@@ -244,7 +244,7 @@
 
 				</div>
 				<div class="dd-button2">
-					<a href="#" class="df-link df-poplink button-action">Заказать по акции</a>
+					<a href="#log-in1" name="modal" class="df-link df-poplink button-action">Заказать по акции</a>
 				</div>
 
 			</div>
