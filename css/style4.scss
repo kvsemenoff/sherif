@@ -391,6 +391,7 @@
 		font-size: 23px;
 		padding-left: 3px;
 		letter-spacing: 9px;
+		font-family: "Times New Roman";
 	}
 	.dd-number-wrap{
 		position:absolute;
@@ -592,7 +593,16 @@
 		margin: 29px auto 0px;
 		height: 32px;
 		position:relative;
+		.dd-number{
+			background: url(../img/kr.png) no-repeat top center;
+			width: 47px;
+			height: 33px;
+			font-size: 27px;
+			padding-left: 3px;
+			letter-spacing: 9px;
+		}
 	}
+
 	// конец таймер
 }
 
