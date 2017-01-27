@@ -26,12 +26,11 @@
 						Вы можете вставить карту памяти и слушать любимую музыку, либо просто включить радио. Качество звука на очень высоком уровне, прекрасно слышны как басы, так и высокие частоты.
 					</div>
 				</div>
-
-
-				<div class="df-butoon">
-					<a href="" class="df-butlink">some text</a>
-					<span class="df-imgbutoon"><img src="img/dfbgfon.png" alt="" ></span>
-				</div>
+				
+				<!-- <div class="df-butn">				
+					<a href="" class="df-butlink">заказать </a>
+					<span class="df-imgbutoon"><img src="img/dfbgfon.png" alt="" class="img-responsive" ></span>				
+				</div> -->
 			</div>
 		</div>
 	</div>

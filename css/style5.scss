@@ -1036,27 +1036,58 @@ div[data-val]:hover{
 	text-align: left;
 }
 
+///////////////////////////////////
 
-
-.df-butoon{
-	width: 340px;
-	min-height: 65px;
-
-	
-	position: relative;
-	margin: 100px 0;
-	text-align: center;
-	border: 3px solid rgba(#fff, 0.2);
-	border-image: url("../img/dfbgfon.png") 2 round round;
+.df-butn{
 	border-radius: 10px;
-	overflow: hidden;
-	
+	// overflow: hidden;
+	max-width: 400px;
+	min-height: 65px;	
+	position: relative;
+	margin: 50px auto;
+	text-align: center;
+}
+.df-butn:before, .df-butn:after{
+	z-index: -1;
+	position: absolute;
+	content: "";
+	// bottom: 12px;
+	bottom: 10%;
+	left: 10px;
+	width: 50%;
+	top: 80%;
+	max-width:300px;
+	background: #000;
+	box-shadow: -14px 7px 30px 9px #777;
+	transform: rotate(-5deg);
+	border-radius: 8%;
+}
+.df-butn:after{
+  transform: rotate(5deg);
+  box-shadow: 14px 7px 30px 9px #777;
+  right: 10px;
+  left: auto;
 }
 .df-butlink{
 	position: absolute;
 	z-index: 100;
-	left:0;
-	top:0;
+	left: 50%;
+    top: 50%;
+    color:#fff;
+    transform: translate(-50%,-50%);
+	font-size: 22px;
+	line-height: 25px;
+	font-family: 'Exo2-Bold';
+	letter-spacing: 0.2px;
+	text-transform: uppercase;
+	display: inline-block;
+	width: 100%;
+	text-shadow: 1px 1px #70aa0a,
+	1px 1px #70aa0a,-1px -1px #70aa0a,-1px -1px #70aa0a,
+	-1px 1px #70aa0a,1px -1px #70aa0a,-1px 1px #70aa0a,
+	0px -1px #70aa0a,0px 0px 0px rgba(0,0,0,0.3),
+	0px 0px 0px rgba(0,0,0,0.3),0px 0px 0px rgba(0,0,0,0.3),
+	0px 0px 0px rgba(0,0,0,0.3);	
 }
 .df-imgbutoon{
 	width: 100%;
@@ -1066,6 +1097,9 @@ div[data-val]:hover{
 	z-index: 1;
 	left:0;
 	top:0;
+	img{
+		width: 100%;
+	}
 }
 @media only screen and (min-width : 320px) {
 	
