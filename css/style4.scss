@@ -7,6 +7,15 @@
 	max-width:1188px;
 	margin: 0 auto;
 }
+#toTop {
+	padding:5px;
+	position:fixed;
+	top:250px; /* отступ кнопки от нижнего края страницы*/
+	right:20px;
+	cursor:pointer;
+	display:none;
+	z-index:9999;
+}
 /* Шапка mobile
 =====================================*/
 
@@ -79,10 +88,6 @@
 }
 .dd-mobile-logo{
 	float:left;
-	// margin-top: -20px;
-	// position:absolute;
-	// top:-10px;
-	// left:0;
 	z-index:1;
 }
 // Фиксируем меню при скроле
@@ -298,7 +303,11 @@
 	margin: 0 auto;
 	padding: 19px 40px 0px 86px;
 	position:relative;
-
+	span{
+		font-size: 13px;
+		font-family: 'Exo2-Regular';
+		color:#fff;
+	}
 
 }
 .dd-stone{
@@ -391,6 +400,7 @@
 		font-size: 23px;
 		padding-left: 3px;
 		letter-spacing: 9px;
+		font-family: "Times New Roman";
 	}
 	.dd-number-wrap{
 		position:absolute;
@@ -464,32 +474,79 @@
 			padding-top: 12px !important;
 		}
 	}
-	@media only screen and (min-width : 320px) {
-		.dd-mobile-title, .dd-mobile-title2{
-			font-size: 16px;
+	.dd-button2{
+		display: none;
+	}
+	.dd-l2{
+		display: none;
+	}
+
+/* Footer
+===========================================*/
+.dd-footer{
+	background: url(../img/mfbg.jpg) no-repeat top center;
+	background-size: cover;
+	width: 100%;
+	padding-top: 4px;
+}
+.dd-time-of-work-f{
+	padding-left: 20px;
+	padding-top: 12px;
+	.dd-span-phone{
+		background: url(../img/tb.png) no-repeat left center;
+	}
+}
+.dd-footer-logo-m, .dd-time-of-work-f{
+	float:left;
+}
+.dd-txt-f{
+	padding-top: 13px;
+}
+.dd-mobile-title-wrap2{
+	margin-top: 12px !important;
+}
+// Конец футер ======================
+
+
+
+@media only screen and (min-width : 320px) {
+
+	// Footer
+	.dd-footer-logo-m{
+		float:left;
+	}
+	.dd-time-of-work-f{
+		float: unset;
+		text-align: center;
+		padding-right: 100px;
+		outline: 2px solid blue;
+	}
+	// end footer
+	.dd-mobile-title, .dd-mobile-title2{
+		font-size: 16px;
+	}
+	.dd-mobile-zakazat-wrap{
+		text-align: center;
+		a{
+			background: url(../img/zakaz.png) no-repeat right bottom;
+			padding-right: 55px;
+			margin-left: 22px;
 		}
-		.dd-mobile-zakazat-wrap{
-			text-align: center;
-			a{
-				background: url(../img/zakaz.png) no-repeat right bottom;
-				padding-right: 55px;
-				margin-left: 22px;
-			}
-		}
-		.dd-mobile-title-wrap{
-			margin-top: 38px;
-			padding-bottom: 29px;
-			text-align:center;
-		}
-		.dd-mobile-slogan{
-			padding-right: 10px;
-			padding-left: 10px;
-		}
-		.dd-mobile-big-slogan{
-			font-size: 32px;
-			padding-bottom: 16px;
-		}
-		.section-header-mobile-view{
+	}
+	.dd-mobile-title-wrap{
+		margin-top: 38px;
+		padding-bottom: 29px;
+		text-align:center;
+	}
+	.dd-mobile-slogan{
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+	.dd-mobile-big-slogan{
+		font-size: 32px;
+		padding-bottom: 16px;
+	}
+	.section-header-mobile-view{
 		// background: url(../img/bigger2.jpg) no-repeat top center;
 		height: 562px;
 	}
@@ -521,6 +578,7 @@
 }
 
 @media only screen and (min-width : 768px) {
+
 	.dd-shadow{
 		display: none;
 	}
@@ -528,7 +586,21 @@
 		margin: 0 auto;
 		width: 468px !important;
 	}
+
+}
+
+@media only screen and (min-width : 992px) {
+	.dd-actsia-wrap{
+		background: url(../img/bb.png) no-repeat top center;
+		background-size: cover;
+		width: 100%;
+		height: 329px;
+	}
 	// Таймер
+	.dd-ac-title{
+		padding-bottom: 34px;
+		padding-top: 38px;
+	}
 	.dd-box-txt{
 		padding-top: 1px;
 		margin-left: -35px;
@@ -575,6 +647,7 @@
 	}
 	.dd-float-timer{
 		float: right;
+		margin-top: -64px;
 	}
 	.dd-l{
 		display: none;
@@ -586,17 +659,92 @@
 	}
 	.dd-line-wrap{
 		// background: url(../img/line.png) no-repeat top center;
-		outline: 2px solid yellow;
 		background-size: cover;
 		width:360px;
 		margin: 29px auto 0px;
 		height: 32px;
 		position:relative;
+		.dd-number{
+			background: url(../img/kr.png) no-repeat top center;
+			width: 47px;
+			height: 33px;
+			font-size: 27px;
+			padding-left: 5px;
+			letter-spacing: 9px;
+		}
+		.dd-pleft-t{
+			padding-left: 65px;
+		}
+		.dd-number-wrap{
+			top:-17px;
+		}
+	}
+	.dd-timer-all-wrap{
+		width: 368px;
+		margin: 0 auto;
+		text-align: center;
+		.dd-timer{
+			.dd-times{
+				position:relative;
+				.dd-ellipse{
+					position:absolute;
+					top:19px;
+					left:72px;
+				}
+				.dd-div{
+					background:url(../img/t2.png) no-repeat center;
+					// background: black;
+					float: left;
+					margin-left: 8px;
+					height: 63px;
+					width: 84px;
+					position:relative;
+					margin-top: 5px;
+					span{
+						font-size:42px;
+						font-weight: 500;
+						// text-shadow: 0 1px 0 black;
+						font-family: "Times New Roman";
+						color:#421F10;
+						letter-spacing: 14px;
+						padding-left: 14px;
+						line-height: 53px;
+					}
+				}
+				.no-margin{
+					margin-left: 0 !important;
+				}
+				.dd-time-txt{
+					padding-left:29px;
+				}
+				.dd-time-txt2{
+					padding-left:93px;
+				}
+				.dd-time-txt3{
+					padding-left:90px;
+				}
+				.dd-time-txt4{
+					padding-left:66px;
+				}
+			}
+		}
+	}
+	.dd-button{
+		display: none;
+	}
+	.dd-button2{
+		display: block;
+		text-align:center;
+		width: 396px;
+		margin-left: -16px;
+		a{
+			display: inline-block;
+			background: url(../img/kn.png) no-repeat top center;
+			margin-top: 11px;
+
+		}
 	}
 	// конец таймер
-}
-
-@media only screen and (min-width : 992px) {
 
 	.dd-kamni{
 		float: left;
@@ -694,6 +842,7 @@
 		ul{
 			li{
 				display: inline-block;
+				margin-left: 40px;
 				a{
 					display: inline-block;
 					text-transform: uppercase;
@@ -702,6 +851,9 @@
 					font-family: 'Exo2-SemiBold';
 					font-size: 13px;
 				}
+			}
+			.li-no-padding{
+				margin-left: 0;
 			}
 		}
 	}

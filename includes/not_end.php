@@ -51,7 +51,7 @@
 			</div>
 			<div class="clear"></div>
 			<h3 class="df-not-end__h3_view">Вы ведь цените качество. Закажите камни Sheriff Premium прямо сейчас!</h3>
-			<a href="#" class="df-link df-padding">ОФОРМИТЬ ЗАКАЗ</a>
+			<a href="#log-in1" name="modal" class="df-link df-padding">ОФОРМИТЬ ЗАКАЗ</a>
 		</div>
 	</div>
 </section>
