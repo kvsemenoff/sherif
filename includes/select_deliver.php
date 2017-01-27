@@ -21,4 +21,4 @@
 				</div>
 			</div>
 		</section>
-		<p class="db-p-last">Остались вопросы? <a href="#">ЗАДАЙТЕ ИХ МЕНЕДЖЕРУ</a> или <a href="#">ЗАКАЖИТЕ ЗВОНОК</a></p>
+		<p class="db-p-last">Остались вопросы? <a href="#log-in3" name="modal">ЗАДАЙТЕ ИХ МЕНЕДЖЕРУ</a> или <a href="#log-in2" name="modal">ЗАКАЖИТЕ ЗВОНОК</a></p>
