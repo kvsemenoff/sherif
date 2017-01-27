@@ -19,7 +19,7 @@
 					<span>Мужчины гораздо реже женщин афишируют свои предпочтения относительно подарков.</span>
 				</div>
 
-				<div class="df-stop-give__2blocks df-stop-give__2blocks_view">
+				<div class="df-stop-give__2blocks df-stop-give__2blocks_view" id="complect">
 					<h3>Хотите увидеть бурю радостных эмоций, даже если ваш мужчина – суровый дальнобойщик?</h3>
 					<div class="df-stop-give__L df-stop-give__L_view">
 						<div id="demo">							
