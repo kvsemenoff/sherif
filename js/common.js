@@ -139,7 +139,7 @@ $('a[name=modal]').click(function(e) {
   var winH = $(window).height();
   var winW = $(window).width();
   posTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement ||document.body.parentNode || document.body).scrollTop;
-  $(id).css('top',  posTop+50);
+  // $(id).css('top',  posTop+50);
   $(id).css('left', winW/2-$(id).width()/2);
   $(id).fadeIn(500); 
 });
