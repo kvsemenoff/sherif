@@ -4,6 +4,7 @@ $phone = $_POST['phone'];
 $email = $_POST['email'];
 $uname = $_POST['uname'];
 $text = $_POST['text'];
+$formname = $_POST['formname'];
 // Формирование заголовка письма
 $subject  = "Новое сообщение";
 $headers  = "From: info@starlight.space" . "\r\n";
