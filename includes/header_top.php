@@ -176,7 +176,7 @@
 			<div class="dd-box">
 				<a href="#log-in6" name="modal"><img src="img/b4.png" alt=""></a>
 				<div class="dd-box-txt">
-					<span>Самая полная в мире энциклопедия</span> <span>(960 страниц)</span>
+					<span>Самая полная в мире энциклопедия</span> 
 				</div>
 			</div>
 			<div class="dd-box dd-box2">
@@ -196,7 +196,7 @@
 				<span>До конца акции:</span>
 				<span class="dd-pleft-t">Осталось комплектов:</span>
 				<div class="dd-number-wrap">
-					<span class="dd-number">37</span>
+					<span class="dd-number">27</span>
 				</div>
 				<div class="dd-l">
 					<img src="img/line.png" alt="">
