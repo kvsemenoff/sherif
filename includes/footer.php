@@ -48,7 +48,7 @@
 				</ul>
 			</div>	
 			<div class="dd-soc-slogan">
-				<a class="sf sf2" href="#">Политика конфидициальности</a>
+				<a class="sf sf2" href="#log-in5" name="modal">Политика конфидициальности</a>
 			</div>
 		</div>
 		<!-- <div class="clearfix clear-block"></div> -->

@@ -51,24 +51,19 @@
 				<div id="df-owl">
 					<div class="item">
 						<div class="df-must-txt-box_left__img df-must-txt-box_left__img_view">
-							<img src="img/df-sl1.jpg" alt="" >
-						</div>
-					</div>
-					<div class="item">
-						<div class="df-must-txt-box_left__img df-must-txt-box_left__img_view">
-							<img src="img/df-sl1.jpg" alt="" >
-						</div>
-					</div>
-					<div class="item">
-						<div class="df-must-txt-box_left__img df-must-txt-box_left__img_view">
 							<img src="img/df-sl1.jpg" alt="" class="img-responsive">
 						</div>
 					</div>
 					<div class="item">
 						<div class="df-must-txt-box_left__img df-must-txt-box_left__img_view">
-							<img src="img/df-sl1.jpg" alt="" >
+							<img src="img/db-why-left.png" alt="" class="img-responsive">
 						</div>
 					</div>
+					<div class="item">
+						<div class="df-must-txt-box_left__img df-must-txt-box_left__img_view">
+							<img src="img/df-bg2.jpg" alt="" class="img-responsive">
+						</div>
+					</div>					
 				</div>
 			</div>
 			<div class="df-must-txt-box__right df-must-txt-box__right_view">
