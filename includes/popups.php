@@ -78,10 +78,10 @@
 		</div>
 		<div class="df-call__R df-inputscont">
 
-			<input type="text" placeholder="Имя и фамилия..." required>
+			<input type="text" name="uname" placeholder="Имя и фамилия..." required>
 			<input type="text" class="phone" name="phone" placeholder="Телефон...">
-			<input type="email" placeholder="E-mail...">
-			<textarea name="" id="" rows="4" placeholder="Вопрос..."></textarea>
+			<input type="email" name="email" placeholder="E-mail...">
+			<textarea name="text" id="" rows="4" placeholder="Вопрос..."></textarea>
 		</div>		
 		<input type="submit" name="submit" value="Заказать вопрос" class="df-link df-mustlink df-poplink">
 		<input type="hidden" value="questionsuccess" name="formname">
@@ -98,17 +98,18 @@
 	</div>
 		<form class="form1" action="#" method="post">
 			<div class="df-inpoz">
-				<input type="text" placeholder="Имя и фамилия..." required>
+				<input type="text" name="uname" placeholder="Имя и фамилия..." required>
 				<input type="text" class="phone" name="phone" placeholder="Телефон...">
-				<input type="email" placeholder="E-mail...">
-				<input type="text" placeholder="Адрес страницы Вконтакте...">
+				<input type="email" name="email" placeholder="E-mail...">
+				<input type="text" name="vk" placeholder="Адрес страницы Вконтакте...">
 			</div>
 			<div class="df-Rbox df-question">
-				<textarea name="" id="" cols="53" rows="4" placeholder="Текст отзыва..."></textarea>
+				<textarea name="text" id="" cols="53" rows="4" placeholder="Текст отзыва..."></textarea>
 				<span class="df-firstspan">Оцените работу магазина от 1 до 5:</span>
 				<input type="text" class="df-littleinp" placeholder="1">
 				<span class="df-otziv-span"><img src="img/df-text.jpg" alt=""></span>
 				<input type="text" class="df-littleinp2" placeholder="Введите код...">
+				<input type="hidden" name="formname" value="otziv">
 			</div>			
 			<input type="submit" name="submit" value="ОТПРАВИТЬ" class="df-link df-mustlink df-poplink">
 		</form>
