@@ -6,6 +6,8 @@ $uname = $_POST['uname'];
 $text = $_POST['text'];
 $vk = $_POST['vk'];
 $formname = $_POST['formname'];
+$totalprice = $_POST['totalprice'];
+$totalpricecol = $_POST['totalpricecol'];
 
 if($formname == 'callmesuccess'){
 	$subject  = "Заказал обратный звонок";
@@ -40,6 +42,8 @@ $msg .= "<p><strong>Имя:</strong> ".$uname."</p>\r\n";
 $msg .= "<p><strong>Email:</strong> ".$email."</p>\r\n";
 $msg .= "<p><strong>Адрес страницы VK:</strong> ".$vk."</p>\r\n";
 $msg .= "<p><strong>Сообщение:</strong> ".$text."</p>\r\n";
+$msg .= "<p><strong>Общее количество товара:</strong> ".$totalpricecol."</p>\r\n";
+$msg .= "<p><strong>Общая цена товара:</strong> ".$totalprice."</p>\r\n";
 $msg .= "</body></html>";
 
 // отправка сообщения

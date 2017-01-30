@@ -17,11 +17,13 @@
 				<span class="dfbutton right">+</span>
 			</span>			
 		</div>
-		<span class="dfspan11">Стоимость заказа: <strong>1 990</strong> руб.</span>
+		<span class="dfspan11">Стоимость заказа: <strong class="df-stong">1990</strong> руб.</span>
 		<div class="df-call__img">
 			<img src="img/df-bg2.jpg" alt="" class="img-responsive">
 		</div>
 	</div>
+	<!-- ////////////////////////////////////////////////////// -->
+
 	<div class="df-call__R">
 		<form class="form2" action="#" method="post">
 			<span class="df-call-span">
@@ -36,6 +38,8 @@
 			<input type="text" name="uname" placeholder="Имя и фамилия..." required>
 			<input type="text" class="phone" name="phone" placeholder="Телефон...">
 			<input type="email" name="email" placeholder="E-mail...">
+			<input type="hidden" id="all-price" name="totalprice" value="1990">
+			<input type="hidden" id="all-price-col" name="totalpricecol" value="1">
 
 			<div  class="az-select az-margin-bottom10">
 				<select name="" id="">
