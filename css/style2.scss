@@ -320,6 +320,26 @@ float:right;
 	}
 
 	@media only screen and (min-width : 992px) {
+#a5fccd1f979ef97963355f88df78059d .widget-info .widget-map-container{
+	margin-left:25px;
+}
+
+		#a5fccd1f979ef97963355f88df78059d .widget-info{
+	
+	max-width: unset !important;
+	padding: unset !important;//20
+	margin:0 auto;
+	padding: 20px 10px 15px !important;//20
+
+
+}
+.ymaps-2-1-47-map-bg-ru{
+	width:unset !important;
+
+}
+#a5fccd1f979ef97963355f88df78059d .widget-info .widget-map-container{
+	float:left !important;
+}
 
 		.db-center-test{
 	    text-align: left;
@@ -374,22 +394,8 @@ float:left;
     padding-left: 80px !important;
     font-size: 25px !important;
 }
-// 		#a5fccd1f979ef97963355f88df78059d .widget-info{
-	
-// 	max-width: 1160px !important;
-// 	width: unset !important;
-// 	padding: 20px 20px 15px !important;//20
-// 	margin:0 auto;
 
-// }
 
-// .ymaps-2-1-47-map-bg-ru{
-// 	width:unset !important;
-
-// }
-// #a5fccd1f979ef97963355f88df78059d .widget-info .widget-map-container{
-// 	float:right!important;
-// }
 
 .db-select-one{
 text-align:left;
