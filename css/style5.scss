@@ -1026,13 +1026,13 @@ div[data-val]:hover{
 	display:none; }
 
 .window{ 
-	display: none;
-	position:absolute;
+	display: none;	
+	position: fixed;
 	left:0;  
-	top:0;
+	top:15%;
 	z-index:9998;
 	background: white; 	
-	
+
 	.form-wrap-main{
 		border:1px solid grey;
 		background: #fff;
