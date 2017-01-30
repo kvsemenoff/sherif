@@ -6,7 +6,7 @@
 </div>
 
 <div class="df-call window" id="log-in1">
-	<div class="df-cloself"><img src="img/df-close.png" alt=""></div>
+<div class="df-cloself"><img src="img/df-close2.png" alt=""></div>
 	<div class="df-call__L">
 		<h3>Камни для виски Sheriff Premium</h3>
 		<span class="dfspan11">Количество:</span>
