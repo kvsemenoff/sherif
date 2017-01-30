@@ -4,10 +4,10 @@
 			<div class="col-md-12">
 				<h2 class="db-select-h2">Выберите удобный вам способ доставки и оплаты</h2>
 				<br>
-				<!-- <div class="db-deliver">
+				<div class="db-deliver">
 					<script src="https://delivery.yandex.ru/widget/widgetJsLoader?dataTagID=af1f2aa717f2b931c7cceaca08ad1bd8" charset="utf-8" width="100%"></script>
 					<msw id="a5fccd1f979ef97963355f88df78059d" class="yd-widget-container db-widget"></msw>
-				</div> -->
+				</div>
 				<p  class="db-select-one">Оплата при получении курьеру, в пункте самовывоза или в ближайшем к вам отделении Почты.</p>
 				<span class="db-select-span">При заказе сразу 2 комплектов подарочных камней для виски Sheriff Premium, доставка по России бесплатно!</span>		
 				<p class="db-select-two">На почте есть определенные сроки хранения посылки. Убедительная просьба забирать ваши заказы вовремя!</p>

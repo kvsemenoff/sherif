@@ -10,8 +10,8 @@
 #toTop {
 	padding:5px;
 	position:fixed;
-	top:250px; /* отступ кнопки от нижнего края страницы*/
-	right:20px;
+	bottom:100px; /* отступ кнопки от нижнего края страницы*/
+	left:20px;
 	cursor:pointer;
 	display:none;
 	z-index:9999;
