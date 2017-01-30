@@ -32,9 +32,9 @@
 			<input type="hidden"  name="formname" value="callmesuccess">
 		</form>	
 		<form class="form1" action="#" method="post">
-			<input type="text" placeholder="Имя и фамилия..." required>
+			<input type="text" name="uname" placeholder="Имя и фамилия..." required>
 			<input type="text" class="phone" name="phone" placeholder="Телефон...">
-			<input type="email" placeholder="E-mail...">
+			<input type="email" name="email" placeholder="E-mail...">
 
 			<div  class="az-select az-margin-bottom10">
 					<select name="" id="">
@@ -51,7 +51,7 @@
 		</form>
 	</div>
 </div>
-
+<!-- Хедер -->
 <div class="df-contact window" id="log-in2">
 	<form class="form1" action="#" method="post">
 		<div class="df-cont">
@@ -60,14 +60,15 @@
 			<div class="df-cloself"><img src="img/df-close.png" alt=""></div>
 		</div>
 		<div class="df-call__R df-inputscont">
-			<input type="text" placeholder="Имя и фамилия..." required>
+			<input type="text" name="uname" placeholder="Имя и фамилия..." required>
 			<input type="text" class="phone" name="phone" placeholder="Телефон...">
-			<input type="email" placeholder="E-mail...">
+			<input type="email" name="email" placeholder="E-mail...">
 		</div>		
 		<input type="submit" name="submit" value="Заказать звонок" class="df-link df-mustlink df-poplink">
 		<input type="hidden"  name="formname" value="callmesuccess">
 	</form>
 </div>
+<!-- Конец хедер -->
 <div class="df-contact df-question window" id="log-in3">
 	<form class="form1" action="#" method="post">
 		<div class="df-cont">
