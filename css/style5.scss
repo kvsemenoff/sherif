@@ -125,18 +125,18 @@ body, html{
 	max-width: 567px;
 	width: 100%;
 	margin: 0 auto;
-	// float: left;
+	height: 343px;
 	border: 7px solid #f6f6f7;
 	position: relative;	
 }
 .df-must-txt-box_left__img_view{
-	height: 320px;
+	height: 343px;
 	max-width: 555px;
 	width: 100%;
 	position: relative;
 	img{
 		width: 100%;
-		height: auto;
+		height: 100%;
 		position: absolute;
 		top:45%;
 		left:50%;
@@ -152,12 +152,12 @@ body, html{
 	background: url("../img/df-right.png") no-repeat center;
 	width: 50px; height: 50px;	
 	border-radius: 50%;	
-
 }
 .df-left{
 	left:7px;
 	background: url("../img/df-left.png") no-repeat center;	
 }	
+
 .df-must-txt-box__right_view{
 	max-width: 580px;
 	width: 100%;
@@ -597,6 +597,7 @@ body, html{
 	border: 1px solid #e2e2e2;
 	text-align: center;
 	display: none;
+	position: relative;
 }
 .df-call__L{
 	max-width: 600px;
