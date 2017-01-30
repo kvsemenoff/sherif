@@ -139,7 +139,7 @@ $('a[name=modal]').click(function(e) {
   var winH = $(window).height();
   var winW = $(window).width();
   posTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement ||document.body.parentNode || document.body).scrollTop;
-  $(id).css('top',  posTop+50);
+  // $(id).css('top',  posTop+50);
   $(id).css('left', winW/2-$(id).width()/2);
   $(id).fadeIn(500); 
 });
@@ -176,6 +176,28 @@ $(".form1").submit(function() {
   }
   return false;
 });
+$(".form2").submit(function() { 
+  var tel = $(this).find('input[name="phone"]');
+  var empty = false;
+  if (tel.val() == ""){
+    empty = true;
+  }
+  if (empty == true){
+    tel.addClass("error-input");
+    tel.focus();
+  }else{
+    var form_data = $(this).serialize(); 
+    $.ajax({
+      type: "POST", 
+      url: "/sendmessage.php", 
+      data: form_data,
+      success: function() {
+        cleanTnanks(this);
+      }
+    });
+  }
+  return false;
+});
   function cleanTnanks(form){
       $('input[type="text"]').removeClass("error-input");
       $("input[type=text], textarea").val("");
@@ -189,7 +211,7 @@ $(".form1").submit(function() {
       var currentBlock = $(this).attr("href");
       currentBlockoffset = $(currentBlock).offset().top;
       $("html, body").animate({
-        scrollTop: currentBlockoffset
+        scrollTop: currentBlockoffset - 90
       }, 500);
     });
 });

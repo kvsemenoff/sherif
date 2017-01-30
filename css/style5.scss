@@ -451,7 +451,16 @@ body, html{
 }
 
 
-
+#textimage{
+	color: transparent;
+	background-image: url("../img/dfimg360.png");
+	background-repeat: no-repeat;
+	background-position: top 2px center;
+	display: block;
+    padding: 30px 0;  
+    width: 50px;
+    background-color: white;
+}
 
 /*============look at=========*/
 
@@ -650,6 +659,10 @@ body, html{
 		padding-left: 15px;		
 		margin-bottom: 3px;
 		font-family: 'Exo2-Regular';
+		outline: none;
+	}
+	input[type="text"]:active, input[type="email"]:active{
+		outline: none;
 	}
 }
 .df-call-span, .df-call-span2{
@@ -1013,12 +1026,13 @@ div[data-val]:hover{
 	display:none; }
 
 .window{ 
-	display: none;
-	position:absolute;
+	display: none;	
+	position: fixed;
 	left:0;  
-	top:0;
+	top:15%;
 	z-index:9998;
 	background: white; 	
+
 	.form-wrap-main{
 		border:1px solid grey;
 		background: #fff;

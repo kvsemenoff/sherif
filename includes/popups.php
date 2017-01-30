@@ -18,18 +18,20 @@
 		</div>
 		<span class="dfspan11">Стоимость заказа: <strong>1 990</strong> руб.</span>
 		<div class="df-call__img">
-			<img src="img/df-call.jpg" alt="" class="img-responsive">
+			<img src="img/df-bg2.jpg" alt="" class="img-responsive">
 		</div>
 	</div>
 	<div class="df-call__R">
-		<form class="form1" action="#" method="post">
+		<form class="form2" action="#" method="post">
 			<span class="df-call-span">
 				Оставьте свой телефон, менеджер перезвонит <br> и решит все вопросы по оформлению заказа
 			</span>
 			<input type="text" class="phone" name="phone" placeholder="Телефон...">
 			<input type="submit" name="submit" class="df-linkpopup" value="Позвоните мне">
 			<span class="df-call-span2">Или заполните форму заказа</span>
-
+			<input type="hidden"  name="formname" value="callmesuccess">
+		</form>	
+		<form class="form1" action="#" method="post">
 			<input type="text" placeholder="Имя и фамилия..." required>
 			<input type="text" class="phone" name="phone" placeholder="Телефон...">
 			<input type="email" placeholder="E-mail...">
@@ -45,6 +47,7 @@
 				</div>
 			<input type="text" placeholder="Адрес доставки...">			
 			<input type="submit" name="submit" value="оформить заказ" class="df-link df-mustlink df-poplink">
+			<input type="hidden"  name="formname" value="ordersuccess">
 		</form>
 	</div>
 </div>
@@ -62,6 +65,7 @@
 			<input type="email" placeholder="E-mail...">
 		</div>		
 		<input type="submit" name="submit" value="Заказать звонок" class="df-link df-mustlink df-poplink">
+		<input type="hidden"  name="formname" value="callmesuccess">
 	</form>
 </div>
 <div class="df-contact df-question window" id="log-in3">
@@ -79,6 +83,7 @@
 			<textarea name="" id="" rows="4" placeholder="Вопрос..."></textarea>
 		</div>		
 		<input type="submit" name="submit" value="Заказать вопрос" class="df-link df-mustlink df-poplink">
+		<input type="hidden" value="questionsuccess" name="formname">
 	</form>
 </div>
 
@@ -124,7 +129,7 @@
 
 <div class="df-viski window" id="log-in6">
 	<div class="df-messege">
-		<h2>энциклопедия виски</h2>	
+		<h2>энциклопедия о виски</h2>	
 		<div class="df-cloself"><img src="img/df-close.png" alt=""></div>	
 	</div>
 	<div class="df-viski-L">
