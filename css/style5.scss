@@ -1030,7 +1030,7 @@ div[data-val]:hover{
 
 .window{ 
 	display: none;	
-	position: fixed;
+	position: absolute;
 	left:0;  
 	top:15%;
 	z-index:9998;
@@ -1322,11 +1322,11 @@ div[data-val]:hover{
 		display: block;
 	}
 	/*popup*/
-	// .window{ 		
-	// 	position: fixed;
-	// 	left:0;  
-	// 	top:15%;			
-	// }
+	.window{ 		
+		position: fixed;
+		left:0;  
+		top:15% !important;			
+	}
 }
 @media only screen and (min-width : 1248px) {
 	/*shadow left box*/

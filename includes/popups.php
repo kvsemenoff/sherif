@@ -6,6 +6,7 @@
 </div>
 
 <div class="df-call window" id="log-in1">
+<div class="df-cloself"><img src="img/df-close2.png" alt=""></div>
 	<div class="df-call__L">
 		<h3>Камни для виски Sheriff Premium</h3>
 		<span class="dfspan11">Количество:</span>
@@ -16,11 +17,13 @@
 				<span class="dfbutton right">+</span>
 			</span>			
 		</div>
-		<span class="dfspan11">Стоимость заказа: <strong>1 990</strong> руб.</span>
+		<span class="dfspan11">Стоимость заказа: <strong class="df-stong">1990</strong> руб.</span>
 		<div class="df-call__img">
 			<img src="img/df-bg2.jpg" alt="" class="img-responsive">
 		</div>
 	</div>
+	<!-- ////////////////////////////////////////////////////// -->
+
 	<div class="df-call__R">
 		<form class="form2" action="#" method="post">
 			<span class="df-call-span">
@@ -32,26 +35,28 @@
 			<input type="hidden"  name="formname" value="callmesuccess">
 		</form>	
 		<form class="form1" action="#" method="post">
-			<input type="text" placeholder="Имя и фамилия..." required>
+			<input type="text" name="uname" placeholder="Имя и фамилия..." required>
 			<input type="text" class="phone" name="phone" placeholder="Телефон...">
-			<input type="email" placeholder="E-mail...">
+			<input type="email" name="email" placeholder="E-mail...">
+			<input type="hidden" id="all-price" name="totalprice" value="1990">
+			<input type="hidden" id="all-price-col" name="totalpricecol" value="1">
 
 			<div  class="az-select az-margin-bottom10">
-					<select name="" id="">
-						<option value="1">Способ доставки</option>
-						<option value="2">Почтой</option>
-						<option value="3">Курьерская доставка</option>
-						<option value="4">Самовывоз</option>
-						<option value="5">Транспортной компанией</option>						
-					</select>
-				</div>
+				<select name="" id="">
+					<option value="1">Способ доставки</option>
+					<option value="2">Почтой</option>
+					<option value="3">Курьерская доставка</option>
+					<option value="4">Самовывоз</option>
+					<option value="5">Транспортной компанией</option>						
+				</select>
+			</div>
 			<input type="text" placeholder="Адрес доставки...">			
 			<input type="submit" name="submit" value="оформить заказ" class="df-link df-mustlink df-poplink">
 			<input type="hidden"  name="formname" value="ordersuccess">
 		</form>
 	</div>
 </div>
-
+<!-- Хедер -->
 <div class="df-contact window" id="log-in2">
 	<form class="form1" action="#" method="post">
 		<div class="df-cont">
@@ -60,14 +65,15 @@
 			<div class="df-cloself"><img src="img/df-close.png" alt=""></div>
 		</div>
 		<div class="df-call__R df-inputscont">
-			<input type="text" placeholder="Имя и фамилия..." required>
+			<input type="text" name="uname" placeholder="Имя и фамилия..." required>
 			<input type="text" class="phone" name="phone" placeholder="Телефон...">
-			<input type="email" placeholder="E-mail...">
+			<input type="email" name="email" placeholder="E-mail...">
 		</div>		
 		<input type="submit" name="submit" value="Заказать звонок" class="df-link df-mustlink df-poplink">
 		<input type="hidden"  name="formname" value="callmesuccess">
 	</form>
 </div>
+<!-- Конец хедер -->
 <div class="df-contact df-question window" id="log-in3">
 	<form class="form1" action="#" method="post">
 		<div class="df-cont">
@@ -77,10 +83,10 @@
 		</div>
 		<div class="df-call__R df-inputscont">
 
-			<input type="text" placeholder="Имя и фамилия..." required>
+			<input type="text" name="uname" placeholder="Имя и фамилия..." required>
 			<input type="text" class="phone" name="phone" placeholder="Телефон...">
-			<input type="email" placeholder="E-mail...">
-			<textarea name="" id="" rows="4" placeholder="Вопрос..."></textarea>
+			<input type="email" name="email" placeholder="E-mail...">
+			<textarea name="text" id="" rows="4" placeholder="Вопрос..."></textarea>
 		</div>		
 		<input type="submit" name="submit" value="Заказать вопрос" class="df-link df-mustlink df-poplink">
 		<input type="hidden" value="questionsuccess" name="formname">
@@ -95,22 +101,23 @@
 		<span>о нашем магазине, и он появится в ленте в ближайшее время</span>
 		<div class="df-cloself"><img src="img/df-close.png" alt=""></div>
 	</div>
-		<form class="form1" action="#" method="post">
-			<div class="df-inpoz">
-				<input type="text" placeholder="Имя и фамилия..." required>
-				<input type="text" class="phone" name="phone" placeholder="Телефон...">
-				<input type="email" placeholder="E-mail...">
-				<input type="text" placeholder="Адрес страницы Вконтакте...">
-			</div>
-			<div class="df-Rbox df-question">
-				<textarea name="" id="" cols="53" rows="4" placeholder="Текст отзыва..."></textarea>
-				<span class="df-firstspan">Оцените работу магазина от 1 до 5:</span>
-				<input type="text" class="df-littleinp" placeholder="1">
-				<span class="df-otziv-span"><img src="img/df-text.jpg" alt=""></span>
-				<input type="text" class="df-littleinp2" placeholder="Введите код...">
-			</div>			
-			<input type="submit" name="submit" value="ОТПРАВИТЬ" class="df-link df-mustlink df-poplink">
-		</form>
+	<form class="form1" action="#" method="post">
+		<div class="df-inpoz">
+			<input type="text" name="uname" placeholder="Имя и фамилия..." required>
+			<input type="text" class="phone" name="phone" placeholder="Телефон...">
+			<input type="email" name="email" placeholder="E-mail...">
+			<input type="text" name="vk" placeholder="Адрес страницы Вконтакте...">
+		</div>
+		<div class="df-Rbox df-question">
+			<textarea name="text" id="" cols="53" rows="4" placeholder="Текст отзыва..."></textarea>
+			<span class="df-firstspan">Оцените работу магазина от 1 до 5:</span>
+			<input type="text" class="df-littleinp" placeholder="1">
+			<span class="df-otziv-span"><img src="img/df-text.jpg" alt=""></span>
+			<input type="text" class="df-littleinp2" placeholder="Введите код...">
+			<input type="hidden" name="formname" value="otziv">
+		</div>			
+		<input type="submit" name="submit" value="ОТПРАВИТЬ" class="df-link df-mustlink df-poplink">
+	</form>
 </div>
 
 
@@ -156,7 +163,7 @@
 	<div class="df-viski-R">
 		<p>Отличные, качественные спортивные наушники! Не имеют проводов, ничего не будет путаться или болтаться перед глазами. Их можно быстро надеть или снять.</p>		
 		<p>Вы можете вставить карту памяти и слушать любимую музыку, либо просто включить радио. Качество звука на очень высоком уровне, прекрасно слышны как басы, так и высокие частоты.
-		Они пригодятся не только спортсменам, но и тем, кто не занимается активными видами спорта, т.к. наушники очень удобны и могут применяться в повседневной жизни.
-		Такие наушники в магазине стоят 450 рублей. Оставьте заказ на нашем сайте и получите их в <strong>ПОДАРОК</strong> по акции! </p>		
+			Они пригодятся не только спортсменам, но и тем, кто не занимается активными видами спорта, т.к. наушники очень удобны и могут применяться в повседневной жизни.
+			Такие наушники в магазине стоят 450 рублей. Оставьте заказ на нашем сайте и получите их в <strong>ПОДАРОК</strong> по акции! </p>		
+		</div>
 	</div>
-</div>
