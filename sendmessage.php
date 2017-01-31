@@ -1,5 +1,8 @@
 <?php
-$to = "sinnapsteam@yandex.ru ";
+$to = "shalaevdu@yandex.ru";
+$to = "gurzova.elena@yandex.ru";
+$to = "balkunov@fastery.ru";
+$to = "order@fastery.ru";
 $phone = $_POST['phone'];
 $email = $_POST['email'];
 $uname = $_POST['uname'];

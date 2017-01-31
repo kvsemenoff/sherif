@@ -5,7 +5,7 @@
 				<img src="img/ico.png" alt="">
 			</div>
 			<div class="dd-tel-wrap">
-				<span><span>8 (499)</span> 643 40 79</span>
+				<a href="tel:+84998768798">8 (499)<span> 643 40 79</span></a>
 			</div>
 			<div class="clearfix"></div>
 			<ul class="dd-mobile-nav">
@@ -21,7 +21,7 @@
 		<img src="img/logo-mob.png" alt="">
 	</div>
 	<div class="dd-mobile-tel2">
-		<span class="dd-span-phone">8 (499)<span> 643 40 79</span></span>
+		<span ><a class="dd-span-phone" href="tel:+84998768798">8 (499)<span> 643 40 79</a></span></span>
 	</div>
 
 	<!-- Время работы -->
@@ -33,7 +33,7 @@
 
 	<!-- Заказать звонок -->
 	<div class="dd-mobile-zakazat-wrap">
-		<a href="#">Заказать звонок</a>
+		<a href="#log-in2" name="modal">Заказать звонок</a>
 	</div>
 	<!-- Конец заказать звонок -->
 
@@ -69,7 +69,8 @@
 				</ul>
 			</div>
 			<div class="div-right">
-				<span class="dd-span-phone">8 (499)<span> 643 40 79</span></span><br>
+				<span class=""><a class="dd-span-phone" href="tel:+84998768798">8 (499)<span> 643 40 79</span></a><br>
+
 			</div>
 			<div class="clearfix"></div>
 		</div>
@@ -83,7 +84,7 @@
 			<span class="dd-mobile-title">c<span> доставкой по россии</span></span>
 		</div>
 		<div class="dd-right-block">
-			<span class="dd-span-phone">8 (499)<span> 643 40 79</span></span><br>
+			<span ><a class="dd-span-phone" href="tel:+84998768798">8 (499)<span> 643 40 79</a></span></span><br>
 			<div class="dd-pb"></div>
 			<span class="dd-1">Время работы:</span><span class="dd-2"> ПН-ПТ с</span><span class="dd-3"> 10:00</span>
 			<span class="dd-2">до</span><span class="dd-3"> 19:00</span><span class="dd-2">, СБ.ВС с</span> <span class="dd-3 dd-3-2">11:00</span> <span class="dd-2">до</span> <span class="dd-3 dd-3-2"> 15:00</span>
@@ -141,7 +142,7 @@
 			<span>Акция!</span>
 		</div>
 		<div class="dd-strelka-wrap">
-			<span>Закажите камни для виски до <span class="dd-red">20 января</span> и получите 2 замечательных <span class="dd-red">ПОДАРКА,</span> стоимостью <span class="dd-red">570 рублей!</span></span>
+			<span>Закажите камни для виски до <span class="dd-red">5 февраля</span> и получите 2 замечательных <span class="dd-red">ПОДАРКА,</span> стоимостью <span class="dd-red">570 рублей!</span></span>
 			<div class="dd-stone">
 				<img src="img/stone.png" alt="">
 			</div>
@@ -156,7 +157,7 @@
 				<div class="dd-box">
 					<a href="#log-in6" name="modal"><img src="img/b1.png" alt=""></a>
 					<div class="dd-box-txt">
-						<span>Самая полная в мире энциклопедия о виски</span> <span>(960 страниц)</span>
+						<span>Самая полная в мире энциклопедия о виски</span> 
 					</div>
 				</div>
 		
@@ -177,6 +178,7 @@
 				<a href="#log-in6" name="modal"><img src="img/b4.png" alt=""></a>
 				<div class="dd-box-txt">
 					<span>Самая полная в мире энциклопедия о виски</span> 
+
 				</div>
 			</div>
 			<div class="dd-box dd-box2">
@@ -244,7 +246,7 @@
 					</div>
 				</div>
 				<div class="dd-button">
-					<a href="#" class="df-link df-must-link df-poplink dd-my">Заказать по акции</a>
+					<a href="#log-in1" name="modal" class="df-link df-must-link df-poplink dd-my">Заказать по акции</a>
 					<!-- <input type="submit" name="submit" value="ЗАКАЗАТЬ ПО АКЦИИ" class="df-link df-mustlink df-poplink"> -->
 
 				</div>

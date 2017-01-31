@@ -21,6 +21,21 @@
 #toTop:hover {
 	opacity:1;
 }
+.dd-tel-wrap{
+	a{
+		color:black;
+	}
+}
+// .dd-span-phone{
+// 	a{
+// 		color:#fff;
+// 	}
+// }
+// .dd-span-phone2{
+// 	a{
+// 		color:black !important;
+// 	}
+// }
 /* Шапка mobile
 =====================================*/
 
@@ -39,13 +54,13 @@
 	.dd-tel-wrap{
 		float:right;
 		padding-top: 13px;
-		span{
+		a{
 			display: inline-block;
 			font-family: 'Exo2-Bold';
 			color:#fff;
 			font-size: 17px;
 			background: url(../img/tel.png) no-repeat left;
-			padding-left: 20px;
+			padding-left: 30px;
 			padding-top: 1px;
 			height: 25px;
 			span{
