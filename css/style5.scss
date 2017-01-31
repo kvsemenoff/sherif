@@ -457,9 +457,10 @@ body, html{
 	background-repeat: no-repeat;
 	background-position: top 2px center;
 	display: block;
-    padding: 30px 0;  
+    padding: 26px 0;  
     width: 50px;
-    background-color: white;
+    height: 50px;
+    // background-color: white;
 }
 
 /*============look at=========*/
@@ -641,6 +642,7 @@ body, html{
 	background-color: #fff;
 	img{
 		display: inline-block;
+		height: 100%;
 	}
 }
 
@@ -1033,7 +1035,6 @@ div[data-val]:hover{
 	top:15%;
 	z-index:9998;
 	background: white; 	
-
 	.form-wrap-main{
 		border:1px solid grey;
 		background: #fff;
@@ -1320,9 +1321,13 @@ div[data-val]:hover{
 	.df-left-shadow{		
 		display: block;
 	}
-
+	/*popup*/
+	// .window{ 		
+	// 	position: fixed;
+	// 	left:0;  
+	// 	top:15%;			
+	// }
 }
-
 @media only screen and (min-width : 1248px) {
 	/*shadow left box*/
 	.df-must-txt-box_left_view:before, .df-must-txt-box_left_view:after{

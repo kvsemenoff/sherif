@@ -130,7 +130,7 @@ $(document).ready(function(){
  
 /*popups*/
 $('a[name=modal]').click(function(e) {
-  e.preventDefault();
+  e.preventDefault();  
   var id = $(this).attr('href');
   var maskHeight = $(document).height();
   var maskWidth = $(window).width();
@@ -144,7 +144,7 @@ $('a[name=modal]').click(function(e) {
   $(id).fadeIn(500); 
 });
 $('.window .df-cloself').click(function (e) {
-  e.preventDefault();
+  e.preventDefault(); 
   $('#mask, .window').hide();
   $('.window').hide();
 }); 
