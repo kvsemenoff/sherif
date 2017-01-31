@@ -4,7 +4,7 @@
 		<img src="img/logo-mob.png" alt="">
 	</div>
 	<div class="dd-mobile-tel2">
-		<span class="dd-span-phone">8 (567)<span> 876 87 98</span></span>
+		<span class="dd-span-phone"><a href="tel:+8 (567) 876 87 98">8 (567)<span> 876 87 98</a></span></span>
 	</div>
 
 	<!-- Время работы -->
@@ -47,6 +47,7 @@
 		</div>
 		<div class="dd-right-block">
 			<span class="dd-span-phone">8 (567)<span> 876 87 98</span></span><br>
+
 			<div class="dd-pb"></div>
 			<span class="dd-1">Время работы:</span><span class="dd-2"> ПН-ПТ с</span><span class="dd-3"> 10:00</span>
 			<span class="dd-2">до</span><span class="dd-3"> 19:00</span><span class="dd-2">, СБ.ВС с</span> <span class="dd-3 dd-3-2">11:00</span> <span class="dd-2">до</span> <span class="dd-3 dd-3-2"> 15:00</span>
