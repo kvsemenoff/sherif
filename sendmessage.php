@@ -1,8 +1,21 @@
 <?php
-$to = "shalaevdu@yandex.ru";
-$to = "gurzova.elena@yandex.ru";
-$to = "balkunov@fastery.ru";
-$to = "order@fastery.ru";
+echo "111"; 
+$to = "shalaevdu@yandex.ru, gurzova.elena@yandex.ru, balkunov@fastery.ru, order@fastery.ru";
+//$to = "gurzova.elena@yandex.ru";
+
+// $subject="sss";
+// $msg="sssd";
+// $headers  = "From: info@starlight.space" . "\r\n";
+// $headers .= "Reply-To: info@starlight.space".  "\r\n";
+// $headers .= "MIME-Version: 1.0\r\n";
+// $headers .= "Content-Type: text/html;charset=utf-8 \r\n";
+//  if (@mail($to, $subject, $msg, $headers)) {
+//  	echo "Письмо отправлено";
+//  }else{
+//  	echo "Письмо отправлено успешно";
+//  }
+
+
 $phone = $_POST['phone'];
 $email = $_POST['email'];
 $uname = $_POST['uname'];

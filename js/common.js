@@ -235,29 +235,8 @@ $(".form2").submit(function() {
     $('.window').hide();
   }); 
   $(".phone").mask("+ 7 (999) 999 - 99 - 99?"); 
-  $(".form1").submit(function() { 
-    var tel = $(this).find('input[name="phone"]');
-    var empty = false;
-    if (tel.val() == ""){
-      empty = true;
-    }
-    if (empty == true){
-      tel.addClass("error-input");
-      tel.focus();
-    }else{
-      var form_data = $(this).serialize(); 
-      $.ajax({
-        type: "POST", 
-        url: "/sendmessage.php", 
-        data: form_data,
-        success: function() {
-          cleanTnanks(this);
-        }
-      });
-    }
-    return false;
-  });
-  $(".form2").submit(function() { 
+ 
+  $(".form3").submit(function() { 
     var tel = $(this).find('input[name="phone"]');
     var empty = false;
     if (tel.val() == ""){
