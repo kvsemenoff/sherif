@@ -156,13 +156,13 @@ q:before, q:after {
 	background-size: cover;
 	// outline: 1px solid red;
 	color:#000;
-	padding:100px 0 !important;
+	padding:100px 0 !important;	
 }
 .section_avoid-db{
 	background: url("../img/db-avoid.jpg")no-repeat center;
 	background-size: cover;
 	padding-bottom: 250px !important;
-
+	margin-top: -115px;
 }
 .db-select-h2{
 	font-family: 'Exo2-Bold';
@@ -232,7 +232,7 @@ text-align:center;
 	font-size: 15px;
 	line-height: 22px;
 	padding:8px 0 20px 80px;
-	text-align: center;
+	text-align: left;
 	span{
 		font-family: 'Exo2-Bold';
 	}
@@ -1844,8 +1844,8 @@ body, html{
 }
 .df-must__img_view{
 	float: left;
-	margin-right: 10px; 
-	width: 90px;
+	// margin-right: 10px; 
+	width: 50px;	
 	vertical-align: top;
 	margin: 0 auto;
 	margin-right: 12px;
@@ -1858,7 +1858,7 @@ body, html{
 	font-family: 'Exo2-Regular';
 	line-height: 22px;
 	letter-spacing: 0.1px;
-	max-width: 265px;
+	max-width: 215px;
 	width: 100%;
 	margin-top: -7px;
 	padding-left: 1px;
@@ -1996,7 +1996,7 @@ body, html{
 	display: block;
 }
 .df-not-end__img1_view{
-	width: 100px;
+	width: 50px;
 	float: left;
 	margin: 0 auto;
 }
@@ -2073,7 +2073,7 @@ body, html{
 
 /*===================stop give===========*/
 .df-stop-give_view{
-	background-color: #fff8ff;
+	// background-color: #fff8ff;
 }
 .df-stop-give__img_view{
 	display: inline-block;	
@@ -2124,7 +2124,7 @@ body, html{
    		padding-left: 36px;
 		background-image: url("../img/df-galka.png");
 		background-repeat: no-repeat;
-		background-position: left center;
+		background-position: left top 5px;
 	}
 }
 
@@ -2934,17 +2934,28 @@ div[data-val]:hover{
 	.df-not-end__img1_view{		
 		float: left;		
 	}
-	.df-txt_view{		
-		float: left;
-		max-width: 590px;
-		margin-bottom: 0px;		
-	}
+	
 	/*look at*/
 	
 
 }
 
 @media only screen and (min-width : 768px) {
+	.df-not-end__img1_view{		
+		width: 100px;
+	}
+	.df-must__img_view{		
+		margin-right: 10px; 
+		width: 90px;		
+	}
+	.df-must__txt_view .df-txt_view{		
+		max-width: 265px;		
+	}
+	.df-txt_view{		
+		float: left;
+		max-width: 590px;
+		margin-bottom: 0px;		
+	}
 	/*not end*/
 		.df-not-end__img_view{ 	
 			background-color: white;

@@ -22,6 +22,7 @@
 
 	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
 	<script src="libs/owl.carousel/owl.carousel.js"></script>
+	<script src="js/jquery.mousewheel.pack.js"></script>
 	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
 	<script src="libs/slick/slick.min.js"></script>
 	<script src="libs/wow/wow.min.js"></script>
@@ -37,7 +38,7 @@
 <!-- 	<script>
 		new WOW().init();
 	</script> -->
-
+	
 	<script src="js/responsiveTabs.js"></script>
 	<script src="js/jquery.maskedinput.min.js"></script>
 	
@@ -443,27 +444,27 @@
 		<div class="df-must-all df-must-all_view">		
 			<div class="df-must df-must_view">
 				<div class="df-must__img df-must__img_view">
-					<img src="img/df-img1.png" alt="">
+					<img src="img/df-img1.png" alt="" class="img-responsive">
 				</div>
 				<p class="df-must__txt df-must__txt_view">Камни для виски Sheriff Premium – <strong>подарок специально для мужчин!</strong> Это <strong>оригинальный и неожиданный</strong> подарок – то, что вашему мужчине в обозримом будущем, скорее всего, никто не подарит.</p>
 			</div>
 			<div class="df-must df-must_view">
 				<div class="df-must__img df-must__img_view">
-					<img src="img/df-img4.png" alt="">
+					<img src="img/df-img4.png" alt="" class="img-responsive">
 				</div>
 				<p class="df-must__txt df-must__txt_view">Алкоголь и алкогольные аксессуары входят в <strong>тройку самых популярных подарков</strong> согласно опросу мужчин, проведенному журналом Cosmopolitan.</p>
 			</div>
 		</div>	
 		<div class="df-must-all df-must-all_view">	
 			<div class="df-must df-must_view">
-				<div class="df-must__img df-must__img_view">
-					<img src="img/df-img2.png" alt="">
+				<div class="df-must__img df-must__img_view" >
+					<img src="img/df-img2.png" alt="" class="img-responsive">
 				</div>
 				<p class="df-must__txt df-must__txt_view">Хотите порадовать мужчину? <strong>Вложите в подарок тепло вашей души!</strong> Камни для виски – как раз такой подарок. Каждый камень вырезается мастерами вручную, аккуратно и заботливо обрабатывается для удобного использования. </p>
 			</div>
 				<div class="df-must df-must_view">
 				<div class="df-must__img df-must__img_view">
-					<img src="img/df-img5.png" alt="">
+					<img src="img/df-img5.png" alt="" class="img-responsive">
 				</div>
 				<p class="df-must__txt df-must__txt_view">То, как оформлен подарок, может многое сказать об уровне личной культуры дарящего. Вообще без упаковки подарки дарить не принято – это дурной тон. Подарочная коробка набора камней для виски Sheriff <strong>сделана вручную из состаренного натурального дерева</strong> и выглядит очень эффектно!</p>
 			</div>			
@@ -472,13 +473,13 @@
 		<div class="df-must-all df-must-all_view df-view2">		
 			<div class="df-must df-must_view df-last">
 				<div class="df-must__img df-must__img_view">
-					<img src="img/df-img3.png" alt="">
+					<img src="img/df-img3.png" alt="" class="img-responsive">
 				</div>
 				<p class="df-must__txt df-must__txt_view">Камни для виски станут для мужчины <strong>проявлением заботы о нём</strong>, что, безусловно, тешит самолюбие любого мужчины. Такой подарок покажет ему безграничную любовь и благодарность за то, что он у вас есть! <strong>Он будет вами гордиться, а друзья будут ему завидовать!</strong></p>
 			</div>		
 			<div class="df-must df-must_view df-last">
 				<div class="df-must__img df-must__img_view">
-					<img src="img/df-img6.png" alt="">
+					<img src="img/df-img6.png" alt="" class="img-responsive">
 				</div>
 				<p class="df-must__txt df-must__txt_view">Слишком дешёвый подарок говорит либо об откровенной скупости, либо о пренебрежении. Камни для виски Sheriff Premium – это достаточно дорогой подарок для выражения своего отношения к получателю, но <strong>вполне доступный по цене.</strong></p>
 			</div>
@@ -488,19 +489,25 @@
 			<div class="df-must-txt-box_left df-must-txt-box_left_view">
 				<div id="df-owl">
 					<div class="item">
-						<div class="df-must-txt-box_left__img df-must-txt-box_left__img_view">
-							<img src="img/df-sl1.jpg" alt="" class="img-responsive">
-						</div>
+						<a href="img/df-sl1.jpg" class="fancybox" rel="group">
+							<div class="df-must-txt-box_left__img df-must-txt-box_left__img_view">
+								<img src="img/df-sl1.jpg" alt="" class="img-responsive">
+							</div>
+						</a>
 					</div>
 					<div class="item">
-						<div class="df-must-txt-box_left__img df-must-txt-box_left__img_view">
-							<img src="img/db-why-left.png" alt="" class="img-responsive">
-						</div>
+						<a href="img/db-why-left.png" class="fancybox" rel="group">
+							<div class="df-must-txt-box_left__img df-must-txt-box_left__img_view">
+								<img src="img/db-why-left.png" alt="" class="img-responsive">
+							</div>
+						</a>
 					</div>
 					<div class="item">
-						<div class="df-must-txt-box_left__img df-must-txt-box_left__img_view">
-							<img src="img/df-bg2.jpg" alt="" class="img-responsive">
-						</div>
+						<a href="img/df-bg2.jpg" class="fancybox" rel="group">
+							<div class="df-must-txt-box_left__img df-must-txt-box_left__img_view">
+								<img src="img/df-bg2.jpg" alt="" class="img-responsive">
+							</div>
+						</a>
 					</div>					
 				</div>
 			</div>
@@ -620,7 +627,7 @@
 			<div class="df-not-end__leftbox df-not-end__leftbox_view">
 				<div class="df-not-end__block df-not-end__block_view">
 					<div class="df-not-end__img1_view">
-						<img src="img/df-img11.png" alt="">
+						<img src="img/df-img11.png" alt="" class="img-responsive">
 					</div>
 					<div class="df-txt df-txt_view">
 						<span>Надежная упаковка перед отправкой!</span>
@@ -630,7 +637,7 @@
 				<div class="clear"></div>
 				<div class="df-not-end__block df-not-end__block_view">
 					<div class="df-not-end__img1_view">
-						<img src="img/df-img22.png" alt="">
+						<img src="img/df-img22.png" alt="" class="img-responsive">
 					</div>
 					<div class="df-txt df-txt_view df-padiings">
 						<span>Оплата на месте!</span>
@@ -640,7 +647,7 @@
 				<div class="clear"></div>
 				<div class="df-not-end__block df-not-end__block_view">
 					<div class="df-not-end__img1_view">
-						<img src="img/df-img33.png" alt="">
+						<img src="img/df-img33.png" alt="" class="img-responsive">
 					</div>
 					<div class="df-txt df-txt_view df-padiings2">
 						<span>Экономим ваши деньги и время</span>
@@ -829,70 +836,6 @@
 			</div>
 		</div>
 	</section>
-
-<section class="section section_padding">
-	<div class="df-container" id="lookat">
-		<h2 class="df-cap1 df-lookcap">Посмотрите, что отличает камни <strong>Sheriff Premium</strong> от других камней для виски</h2>		
-		<div class="df-look df-look_view">
-			<div class="df-look__img df-look__img_view">
-				<img src="img/df-galka.png" alt="">
-				Стеатит, из которого изготовлены камни, – натуральный, чистый, природный камень, хранящий холод или тепло дольше других. <strong>Камень добыт в экологически чистом районе Карелии.</strong> Никакого гранита Китая или псевдо-скандинавских камней.
-			</div>			
-		</div>
-		<div class="df-look df-look_view">
-			<div class="df-look__img df-look__img_view">
-				<img src="img/df-galka.png" alt="">
-				12 камней в комплекте – хватит насладиться напитком <strong>целой компании!</strong>
-			</div>			
-		</div>
-		<div class="df-look df-look_view">
-			<div class="df-look__img df-look__img_view">
-				<img src="img/df-galka.png" alt="">
-				Камни для виски перед употреблением нужно на 2 часа поместить в морозилку. Только в комплекте с камнями Sheriff Premium идет <strong>специальный пакет-антисептик,</strong> благодаря которому на них не попадут бактерии из морозилки (сырое мясо, рыба и т.п.). Вы можете использовать камни, <strong>совершенно не опасаясь за своё здоровье.</strong>
-			</div>			
-		</div>
-		<div class="df-look df-look_view">
-			<div class="df-look__img df-look__img_view">
-				<img src="img/df-galka.png" alt="">
-				Камни упакованы в красивую и стильную подарочную коробку, <strong>изготовленную вручную из натурального дерева</strong> с эффектом состаривания. Вам не нужно больше ничего покупать, чтобы как-то украсить ваш подарок.
-			</div>			
-		</div>
-		<div class="df-all">
-			<div class="df-video df-video_view">
-				<h3>Посмотрите видео-обзор камней <strong>Sheriff Premium</strong></h3>
-				<iframe width="100%" height="100%" src="https://www.youtube.com/embed/htkLzoGsxeQ" frameborder="0" allowfullscreen></iframe>
-			</div>
-			<img src="img/df-shadow2.png" alt="" class="img-responsive df-shadow3">
-			<div class="df-stop-give__R_view df-look-R">
-				<h3>что идет В наборе <strong>Sheriff Premium</strong></h3>
-				<span>камни 12 штук, размер 20х20х20 мм</span>
-				<span>подарочная упаковка из натурального дерева</span>
-				<span>стильный плетённый мешочек для хранения камней из 100% натуральной ткани</span>
-				<span>специальный мешочек-антисептик для хранения в морозилке</span>
-				<span>сертификат подлинности камней</span>
-				<span>фирменный магнит на холодильник</span>
-				<span>фирменный подарочный пакет</span>
-				<span>специальная плотная коробка длябезопасной транспортировки</span>
-				<div class="df-left-shadow">
-					<img src="img/df-shadow4.png" alt="">
-				</div>
-			</div>	
-		</div>
-		<img src="img/df-shadow3.png" alt="" class="img-responsive df-shadow-B">
-		<div class="df-look df-look_view df-marg2">
-			<div class="df-look__img df-look__img_view">
-				<img src="img/df-galka.png" alt="">
-				Продукция сертифицирована и имеет все необходимые документы. Готовы предъявить по первому требованию!
-			</div>	
-		</div>	
-		<div class="df-look df-look_view">
-			<div class="df-look__img df-look__img_view">
-				<img src="img/df-galka.png" alt="">
-				Камни Sheriff Premium идеально подойдут для охлаждения любых крепких напитков, а не только виски, а так же для поддержания температуры горячих напитков (чай, кофе и т.д.). <strong>Срок годности не ограничен.</strong>
-			</div>			
-		</div>		
-	</div>
-</section>
 
 <section class="section section_padding section_select-db-view">
 	<div class="container">

@@ -167,6 +167,14 @@ $('a[name=modal]').click(function(e) {
   $(id).css('top',  posTop+50);
   $(id).css('left', winW/2-$(id).width()/2);
   $(id).fadeIn(500); 
+
+});
+
+$(document).keyup(function(e){
+    if(e.keyCode === 27){
+        $('#mask, .window').hide();    
+         $('.window').hide();
+    }
 });
 
 $('.window .df-cloself').click(function (e) {
@@ -275,6 +283,17 @@ $(".form2").submit(function() {
       scrollTop: currentBlockoffset - 90
     }, 500);
   });
+
+
+   $(".fancybox").fancybox({
+            helpers : {
+                overlay : {
+                    css : {
+                        'background' : 'rgba(0, 0, 0, 0.5)'
+                    }
+                }
+            }
+        }); 
 });
 
 
