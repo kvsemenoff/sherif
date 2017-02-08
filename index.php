@@ -496,9 +496,9 @@
 						</a>
 					</div>
 					<div class="item">
-						<a href="img/db-why-left.png" class="fancybox" rel="group">
+						<a href="img/IMG_7.jpg" class="fancybox" rel="group">
 							<div class="df-must-txt-box_left__img df-must-txt-box_left__img_view">
-								<img src="img/db-why-left.png" alt="" class="img-responsive">
+								<img src="img/IMG_7.jpg" alt="" class="img-responsive">
 							</div>
 						</a>
 					</div>
@@ -655,7 +655,8 @@
 					</div>
 				</div>
 			</div>
-			
+
+
 			<div class="df-not-end__rightbox df-not-end__rightbox_view">
 				<h4>НАШ СКЛАД</h4>
 				<div class="df-not-end__img df-not-end__img_view">
